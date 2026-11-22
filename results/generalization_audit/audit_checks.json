@@ -1,0 +1,19 @@
+{
+  "existing_split": {
+    "cycle_overlap_train_validation": 0,
+    "cycle_overlap_train_test": 0,
+    "cycle_overlap_validation_test": 0,
+    "blocks_total": 194,
+    "blocks_spanning_multiple_splits": 155,
+    "blocks_spanning_all_three_splits": 102,
+    "conditions_total": 144,
+    "conditions_spanning_multiple_splits": 142,
+    "conditions_spanning_all_three_splits": 101
+  },
+  "causal_features": {
+    "future_perturbation_max_abs_difference": 0.0,
+    "feature_cycle_ids_in_original_order": true,
+    "feature_labels_match_profile": true,
+    "predictor_count": 153
+  }
+}

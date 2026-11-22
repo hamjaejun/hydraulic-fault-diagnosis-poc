@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "method": "cycle-level stratified random split (70/15/15)",
+  "counts": {
+    "test": 331,
+    "train": 1543,
+    "validation": 331
+  },
+  "class_counts": {
+    "test": {
+      "0": 183,
+      "1": 74,
+      "2": 74
+    },
+    "train": {
+      "0": 855,
+      "1": 344,
+      "2": 344
+    },
+    "validation": {
+      "0": 183,
+      "1": 74,
+      "2": 74
+    }
+  },
+  "overlap_counts": {
+    "test_train": 0,
+    "test_validation": 0,
+    "train_validation": 0
+  },
+  "inferred_blocks": 194,
+  "block_note": "Explicit experiment IDs are unavailable. Contiguous identical-profile runs are retained for group-CV robustness auditing."
+}

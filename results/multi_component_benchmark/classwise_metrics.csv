@@ -1,0 +1,841 @@
+component,scheme,observation_seconds,model,fold,class_id,class_label,precision,recall,f1,support,is_severe_class
+pump,random_cycle,5,logistic_regression,1,0,Normal,1.0,0.9918367346938776,0.9959016393442623,245,False
+pump,random_cycle,5,logistic_regression,1,1,Weak Leakage,0.98,1.0,0.98989898989899,98,False
+pump,random_cycle,5,logistic_regression,1,2,Severe Leakage,1.0,1.0,1.0,98,True
+pump,random_cycle,5,random_forest,1,0,Normal,0.9918367346938776,0.9918367346938776,0.9918367346938776,245,False
+pump,random_cycle,5,random_forest,1,1,Weak Leakage,0.9795918367346939,0.9795918367346939,0.9795918367346939,98,False
+pump,random_cycle,5,random_forest,1,2,Severe Leakage,0.9795918367346939,0.9795918367346939,0.9795918367346939,98,True
+pump,random_cycle,5,logistic_regression,2,0,Normal,0.9959183673469387,1.0,0.9979550102249489,244,False
+pump,random_cycle,5,logistic_regression,2,1,Weak Leakage,1.0,1.0,1.0,98,False
+pump,random_cycle,5,logistic_regression,2,2,Severe Leakage,1.0,0.98989898989899,0.9949238578680203,99,True
+pump,random_cycle,5,random_forest,2,0,Normal,0.9959183673469387,1.0,0.9979550102249489,244,False
+pump,random_cycle,5,random_forest,2,1,Weak Leakage,0.989247311827957,0.9387755102040817,0.9633507853403142,98,False
+pump,random_cycle,5,random_forest,2,2,Severe Leakage,0.9514563106796117,0.98989898989899,0.9702970297029703,99,True
+pump,random_cycle,5,logistic_regression,3,0,Normal,1.0,1.0,1.0,244,False
+pump,random_cycle,5,logistic_regression,3,1,Weak Leakage,0.98989898989899,1.0,0.9949238578680203,98,False
+pump,random_cycle,5,logistic_regression,3,2,Severe Leakage,1.0,0.98989898989899,0.9949238578680203,99,True
+pump,random_cycle,5,random_forest,3,0,Normal,0.9959183673469387,1.0,0.9979550102249489,244,False
+pump,random_cycle,5,random_forest,3,1,Weak Leakage,0.9895833333333334,0.9693877551020408,0.979381443298969,98,False
+pump,random_cycle,5,random_forest,3,2,Severe Leakage,0.97,0.9797979797979798,0.9748743718592965,99,True
+pump,random_cycle,5,logistic_regression,4,0,Normal,1.0,0.9918032786885246,0.9958847736625515,244,False
+pump,random_cycle,5,logistic_regression,4,1,Weak Leakage,0.9801980198019802,1.0,0.99,99,False
+pump,random_cycle,5,logistic_regression,4,2,Severe Leakage,1.0,1.0,1.0,98,True
+pump,random_cycle,5,random_forest,4,0,Normal,1.0,0.9877049180327869,0.9938144329896907,244,False
+pump,random_cycle,5,random_forest,4,1,Weak Leakage,0.98,0.98989898989899,0.9849246231155779,99,False
+pump,random_cycle,5,random_forest,4,2,Severe Leakage,0.98,1.0,0.98989898989899,98,True
+pump,random_cycle,5,logistic_regression,5,0,Normal,1.0,0.9959016393442623,0.997946611909651,244,False
+pump,random_cycle,5,logistic_regression,5,1,Weak Leakage,0.99,1.0,0.9949748743718593,99,False
+pump,random_cycle,5,logistic_regression,5,2,Severe Leakage,1.0,1.0,1.0,98,True
+pump,random_cycle,5,random_forest,5,0,Normal,0.9916666666666667,0.9754098360655737,0.9834710743801653,244,False
+pump,random_cycle,5,random_forest,5,1,Weak Leakage,0.9230769230769231,0.9696969696969697,0.9458128078817734,99,False
+pump,random_cycle,5,random_forest,5,2,Severe Leakage,0.9690721649484536,0.9591836734693877,0.9641025641025641,98,True
+pump,block_aware,5,logistic_regression,1,0,Normal,1.0,0.9629629629629629,0.9811320754716981,243,False
+pump,block_aware,5,logistic_regression,1,1,Weak Leakage,0.9174311926605505,1.0,0.9569377990430622,100,False
+pump,block_aware,5,logistic_regression,1,2,Severe Leakage,1.0,1.0,1.0,100,True
+pump,block_aware,5,random_forest,1,0,Normal,0.995850622406639,0.9876543209876543,0.9917355371900827,243,False
+pump,block_aware,5,random_forest,1,1,Weak Leakage,0.9519230769230769,0.99,0.9705882352941176,100,False
+pump,block_aware,5,random_forest,1,2,Severe Leakage,0.9897959183673469,0.97,0.9797979797979798,100,True
+pump,block_aware,5,logistic_regression,2,0,Normal,0.996,1.0,0.9979959919839679,249,False
+pump,block_aware,5,logistic_regression,2,1,Weak Leakage,0.9615384615384616,1.0,0.9803921568627451,100,False
+pump,block_aware,5,logistic_regression,2,2,Severe Leakage,1.0,0.9479166666666666,0.9732620320855615,96,True
+pump,block_aware,5,random_forest,2,0,Normal,0.9880478087649402,0.9959839357429718,0.992,249,False
+pump,block_aware,5,random_forest,2,1,Weak Leakage,0.9509803921568627,0.97,0.9603960396039604,100,False
+pump,block_aware,5,random_forest,2,2,Severe Leakage,0.9782608695652174,0.9375,0.9574468085106383,96,True
+pump,block_aware,5,logistic_regression,3,0,Normal,1.0,1.0,1.0,243,False
+pump,block_aware,5,logistic_regression,3,1,Weak Leakage,1.0,0.9895833333333334,0.9947643979057592,96,False
+pump,block_aware,5,logistic_regression,3,2,Severe Leakage,0.9900990099009901,1.0,0.9950248756218906,100,True
+pump,block_aware,5,random_forest,3,0,Normal,1.0,0.9917695473251029,0.9958677685950413,243,False
+pump,block_aware,5,random_forest,3,1,Weak Leakage,0.9659090909090909,0.8854166666666666,0.9239130434782609,96,False
+pump,block_aware,5,random_forest,3,2,Severe Leakage,0.9,0.99,0.9428571428571428,100,True
+pump,block_aware,5,logistic_regression,4,0,Normal,1.0,0.9958847736625515,0.9979381443298969,243,False
+pump,block_aware,5,logistic_regression,4,1,Weak Leakage,0.9896907216494846,1.0,0.9948186528497409,96,False
+pump,block_aware,5,logistic_regression,4,2,Severe Leakage,1.0,1.0,1.0,100,True
+pump,block_aware,5,random_forest,4,0,Normal,1.0,0.9917695473251029,0.9958677685950413,243,False
+pump,block_aware,5,random_forest,4,1,Weak Leakage,0.9782608695652174,0.9375,0.9574468085106383,96,False
+pump,block_aware,5,random_forest,4,2,Severe Leakage,0.9433962264150944,1.0,0.970873786407767,100,True
+pump,block_aware,5,logistic_regression,5,0,Normal,1.0,0.9876543209876543,0.9937888198757764,243,False
+pump,block_aware,5,logistic_regression,5,1,Weak Leakage,0.970873786407767,1.0,0.9852216748768473,100,False
+pump,block_aware,5,logistic_regression,5,2,Severe Leakage,1.0,1.0,1.0,96,True
+pump,block_aware,5,random_forest,5,0,Normal,0.995850622406639,0.9876543209876543,0.9917355371900827,243,False
+pump,block_aware,5,random_forest,5,1,Weak Leakage,0.9803921568627451,1.0,0.9900990099009901,100,False
+pump,block_aware,5,random_forest,5,2,Severe Leakage,0.9895833333333334,0.9895833333333334,0.9895833333333334,96,True
+pump,condition_holdout,5,logistic_regression,1,0,Normal,1.0,0.966804979253112,0.9831223628691983,241,False
+pump,condition_holdout,5,logistic_regression,1,1,Weak Leakage,0.9272727272727272,1.0,0.9622641509433962,102,False
+pump,condition_holdout,5,logistic_regression,1,2,Severe Leakage,1.0,1.0,1.0,102,True
+pump,condition_holdout,5,random_forest,1,0,Normal,0.995850622406639,0.995850622406639,0.995850622406639,241,False
+pump,condition_holdout,5,random_forest,1,1,Weak Leakage,0.9900990099009901,0.9803921568627451,0.9852216748768473,102,False
+pump,condition_holdout,5,random_forest,1,2,Severe Leakage,0.9805825242718447,0.9901960784313726,0.9853658536585366,102,True
+pump,condition_holdout,5,logistic_regression,2,0,Normal,1.0,0.9877551020408163,0.9938398357289527,245,False
+pump,condition_holdout,5,logistic_regression,2,1,Weak Leakage,0.968421052631579,0.989247311827957,0.9787234042553191,93,False
+pump,condition_holdout,5,logistic_regression,2,2,Severe Leakage,0.9893617021276596,1.0,0.9946524064171123,93,True
+pump,condition_holdout,5,random_forest,2,0,Normal,0.9836065573770492,0.9795918367346939,0.9815950920245399,245,False
+pump,condition_holdout,5,random_forest,2,1,Weak Leakage,0.9540229885057471,0.8924731182795699,0.9222222222222223,93,False
+pump,condition_holdout,5,random_forest,2,2,Severe Leakage,0.9,0.967741935483871,0.9326424870466321,93,True
+pump,condition_holdout,5,logistic_regression,3,0,Normal,0.9958677685950413,1.0,0.9979296066252588,241,False
+pump,condition_holdout,5,logistic_regression,3,1,Weak Leakage,0.9807692307692307,1.0,0.9902912621359223,102,False
+pump,condition_holdout,5,logistic_regression,3,2,Severe Leakage,1.0,0.9705882352941176,0.9850746268656716,102,True
+pump,condition_holdout,5,random_forest,3,0,Normal,1.0,0.995850622406639,0.997920997920998,241,False
+pump,condition_holdout,5,random_forest,3,1,Weak Leakage,0.9702970297029703,0.9607843137254902,0.9655172413793104,102,False
+pump,condition_holdout,5,random_forest,3,2,Severe Leakage,0.9615384615384616,0.9803921568627451,0.970873786407767,102,True
+pump,condition_holdout,5,logistic_regression,4,0,Normal,1.0,0.9918032786885246,0.9958847736625515,244,False
+pump,condition_holdout,5,logistic_regression,4,1,Weak Leakage,0.9484536082474226,0.989247311827957,0.968421052631579,93,False
+pump,condition_holdout,5,logistic_regression,4,2,Severe Leakage,0.989010989010989,0.967741935483871,0.9782608695652174,93,True
+pump,condition_holdout,5,random_forest,4,0,Normal,0.9836734693877551,0.9877049180327869,0.9856850715746421,244,False
+pump,condition_holdout,5,random_forest,4,1,Weak Leakage,0.967741935483871,0.967741935483871,0.967741935483871,93,False
+pump,condition_holdout,5,random_forest,4,2,Severe Leakage,0.9565217391304348,0.946236559139785,0.9513513513513514,93,True
+pump,condition_holdout,5,logistic_regression,5,0,Normal,1.0,0.996,0.9979959919839679,250,False
+pump,condition_holdout,5,logistic_regression,5,1,Weak Leakage,0.9902912621359223,1.0,0.9951219512195122,102,False
+pump,condition_holdout,5,logistic_regression,5,2,Severe Leakage,1.0,1.0,1.0,102,True
+pump,condition_holdout,5,random_forest,5,0,Normal,0.9920318725099602,0.996,0.9940119760479041,250,False
+pump,condition_holdout,5,random_forest,5,1,Weak Leakage,0.970873786407767,0.9803921568627451,0.975609756097561,102,False
+pump,condition_holdout,5,random_forest,5,2,Severe Leakage,0.98,0.9607843137254902,0.9702970297029703,102,True
+pump,random_cycle,60,logistic_regression,1,0,Normal,1.0,1.0,1.0,245,False
+pump,random_cycle,60,logistic_regression,1,1,Weak Leakage,1.0,1.0,1.0,98,False
+pump,random_cycle,60,logistic_regression,1,2,Severe Leakage,1.0,1.0,1.0,98,True
+pump,random_cycle,60,random_forest,1,0,Normal,1.0,1.0,1.0,245,False
+pump,random_cycle,60,random_forest,1,1,Weak Leakage,1.0,0.9897959183673469,0.9948717948717949,98,False
+pump,random_cycle,60,random_forest,1,2,Severe Leakage,0.98989898989899,1.0,0.9949238578680203,98,True
+pump,random_cycle,60,logistic_regression,2,0,Normal,1.0,1.0,1.0,244,False
+pump,random_cycle,60,logistic_regression,2,1,Weak Leakage,1.0,1.0,1.0,98,False
+pump,random_cycle,60,logistic_regression,2,2,Severe Leakage,1.0,1.0,1.0,99,True
+pump,random_cycle,60,random_forest,2,0,Normal,0.9959183673469387,1.0,0.9979550102249489,244,False
+pump,random_cycle,60,random_forest,2,1,Weak Leakage,1.0,0.9897959183673469,0.9948717948717949,98,False
+pump,random_cycle,60,random_forest,2,2,Severe Leakage,1.0,1.0,1.0,99,True
+pump,random_cycle,60,logistic_regression,3,0,Normal,1.0,1.0,1.0,244,False
+pump,random_cycle,60,logistic_regression,3,1,Weak Leakage,0.98989898989899,1.0,0.9949238578680203,98,False
+pump,random_cycle,60,logistic_regression,3,2,Severe Leakage,1.0,0.98989898989899,0.9949238578680203,99,True
+pump,random_cycle,60,random_forest,3,0,Normal,1.0,1.0,1.0,244,False
+pump,random_cycle,60,random_forest,3,1,Weak Leakage,0.9896907216494846,0.9795918367346939,0.9846153846153847,98,False
+pump,random_cycle,60,random_forest,3,2,Severe Leakage,0.98,0.98989898989899,0.9849246231155779,99,True
+pump,random_cycle,60,logistic_regression,4,0,Normal,1.0,0.9918032786885246,0.9958847736625515,244,False
+pump,random_cycle,60,logistic_regression,4,1,Weak Leakage,0.9801980198019802,1.0,0.99,99,False
+pump,random_cycle,60,logistic_regression,4,2,Severe Leakage,1.0,1.0,1.0,98,True
+pump,random_cycle,60,random_forest,4,0,Normal,1.0,0.9918032786885246,0.9958847736625515,244,False
+pump,random_cycle,60,random_forest,4,1,Weak Leakage,0.99,1.0,0.9949748743718593,99,False
+pump,random_cycle,60,random_forest,4,2,Severe Leakage,0.98989898989899,1.0,0.9949238578680203,98,True
+pump,random_cycle,60,logistic_regression,5,0,Normal,1.0,0.9959016393442623,0.997946611909651,244,False
+pump,random_cycle,60,logistic_regression,5,1,Weak Leakage,0.9801980198019802,1.0,0.99,99,False
+pump,random_cycle,60,logistic_regression,5,2,Severe Leakage,1.0,0.9897959183673469,0.9948717948717949,98,True
+pump,random_cycle,60,random_forest,5,0,Normal,1.0,1.0,1.0,244,False
+pump,random_cycle,60,random_forest,5,1,Weak Leakage,0.99,1.0,0.9949748743718593,99,False
+pump,random_cycle,60,random_forest,5,2,Severe Leakage,1.0,0.9897959183673469,0.9948717948717949,98,True
+pump,block_aware,60,logistic_regression,1,0,Normal,1.0,0.9382716049382716,0.9681528662420382,243,False
+pump,block_aware,60,logistic_regression,1,1,Weak Leakage,0.847457627118644,1.0,0.9174311926605505,100,False
+pump,block_aware,60,logistic_regression,1,2,Severe Leakage,1.0,0.97,0.9847715736040609,100,True
+pump,block_aware,60,random_forest,1,0,Normal,1.0,1.0,1.0,243,False
+pump,block_aware,60,random_forest,1,1,Weak Leakage,0.9801980198019802,0.99,0.9850746268656716,100,False
+pump,block_aware,60,random_forest,1,2,Severe Leakage,0.98989898989899,0.98,0.9849246231155779,100,True
+pump,block_aware,60,logistic_regression,2,0,Normal,1.0,1.0,1.0,249,False
+pump,block_aware,60,logistic_regression,2,1,Weak Leakage,0.9705882352941176,0.99,0.9801980198019802,100,False
+pump,block_aware,60,logistic_regression,2,2,Severe Leakage,0.9893617021276596,0.96875,0.9789473684210527,96,True
+pump,block_aware,60,random_forest,2,0,Normal,1.0,0.9959839357429718,0.9979879275653923,249,False
+pump,block_aware,60,random_forest,2,1,Weak Leakage,0.9900990099009901,1.0,0.9950248756218906,100,False
+pump,block_aware,60,random_forest,2,2,Severe Leakage,1.0,1.0,1.0,96,True
+pump,block_aware,60,logistic_regression,3,0,Normal,1.0,0.9917695473251029,0.9958677685950413,243,False
+pump,block_aware,60,logistic_regression,3,1,Weak Leakage,0.979381443298969,0.9895833333333334,0.9844559585492227,96,False
+pump,block_aware,60,logistic_regression,3,2,Severe Leakage,0.9900990099009901,1.0,0.9950248756218906,100,True
+pump,block_aware,60,random_forest,3,0,Normal,1.0,1.0,1.0,243,False
+pump,block_aware,60,random_forest,3,1,Weak Leakage,1.0,0.9895833333333334,0.9947643979057592,96,False
+pump,block_aware,60,random_forest,3,2,Severe Leakage,0.9900990099009901,1.0,0.9950248756218906,100,True
+pump,block_aware,60,logistic_regression,4,0,Normal,1.0,0.9711934156378601,0.9853862212943633,243,False
+pump,block_aware,60,logistic_regression,4,1,Weak Leakage,0.9320388349514563,1.0,0.964824120603015,96,False
+pump,block_aware,60,logistic_regression,4,2,Severe Leakage,1.0,1.0,1.0,100,True
+pump,block_aware,60,random_forest,4,0,Normal,1.0,1.0,1.0,243,False
+pump,block_aware,60,random_forest,4,1,Weak Leakage,1.0,1.0,1.0,96,False
+pump,block_aware,60,random_forest,4,2,Severe Leakage,1.0,1.0,1.0,100,True
+pump,block_aware,60,logistic_regression,5,0,Normal,1.0,0.9958847736625515,0.9979381443298969,243,False
+pump,block_aware,60,logistic_regression,5,1,Weak Leakage,0.9900990099009901,1.0,0.9950248756218906,100,False
+pump,block_aware,60,logistic_regression,5,2,Severe Leakage,1.0,1.0,1.0,96,True
+pump,block_aware,60,random_forest,5,0,Normal,1.0,0.9958847736625515,0.9979381443298969,243,False
+pump,block_aware,60,random_forest,5,1,Weak Leakage,1.0,1.0,1.0,100,False
+pump,block_aware,60,random_forest,5,2,Severe Leakage,0.9896907216494846,1.0,0.9948186528497409,96,True
+pump,condition_holdout,60,logistic_regression,1,0,Normal,1.0,0.9294605809128631,0.9634408602150538,241,False
+pump,condition_holdout,60,logistic_regression,1,1,Weak Leakage,0.8571428571428571,1.0,0.9230769230769231,102,False
+pump,condition_holdout,60,logistic_regression,1,2,Severe Leakage,1.0,1.0,1.0,102,True
+pump,condition_holdout,60,random_forest,1,0,Normal,1.0,1.0,1.0,241,False
+pump,condition_holdout,60,random_forest,1,1,Weak Leakage,1.0,1.0,1.0,102,False
+pump,condition_holdout,60,random_forest,1,2,Severe Leakage,1.0,1.0,1.0,102,True
+pump,condition_holdout,60,logistic_regression,2,0,Normal,1.0,1.0,1.0,245,False
+pump,condition_holdout,60,logistic_regression,2,1,Weak Leakage,1.0,1.0,1.0,93,False
+pump,condition_holdout,60,logistic_regression,2,2,Severe Leakage,1.0,1.0,1.0,93,True
+pump,condition_holdout,60,random_forest,2,0,Normal,1.0,0.9959183673469387,0.9979550102249489,245,False
+pump,condition_holdout,60,random_forest,2,1,Weak Leakage,1.0,0.989247311827957,0.9945945945945946,93,False
+pump,condition_holdout,60,random_forest,2,2,Severe Leakage,0.9789473684210527,1.0,0.9893617021276596,93,True
+pump,condition_holdout,60,logistic_regression,3,0,Normal,1.0,0.991701244813278,0.9958333333333333,241,False
+pump,condition_holdout,60,logistic_regression,3,1,Weak Leakage,0.9615384615384616,0.9803921568627451,0.970873786407767,102,False
+pump,condition_holdout,60,logistic_regression,3,2,Severe Leakage,0.9803921568627451,0.9803921568627451,0.9803921568627451,102,True
+pump,condition_holdout,60,random_forest,3,0,Normal,1.0,1.0,1.0,241,False
+pump,condition_holdout,60,random_forest,3,1,Weak Leakage,0.9803921568627451,0.9803921568627451,0.9803921568627451,102,False
+pump,condition_holdout,60,random_forest,3,2,Severe Leakage,0.9803921568627451,0.9803921568627451,0.9803921568627451,102,True
+pump,condition_holdout,60,logistic_regression,4,0,Normal,1.0,0.9959016393442623,0.997946611909651,244,False
+pump,condition_holdout,60,logistic_regression,4,1,Weak Leakage,0.93,1.0,0.9637305699481865,93,False
+pump,condition_holdout,60,logistic_regression,4,2,Severe Leakage,1.0,0.9354838709677419,0.9666666666666667,93,True
+pump,condition_holdout,60,random_forest,4,0,Normal,1.0,0.9959016393442623,0.997946611909651,244,False
+pump,condition_holdout,60,random_forest,4,1,Weak Leakage,0.9789473684210527,1.0,0.9893617021276596,93,False
+pump,condition_holdout,60,random_forest,4,2,Severe Leakage,0.9891304347826086,0.978494623655914,0.9837837837837838,93,True
+pump,condition_holdout,60,logistic_regression,5,0,Normal,1.0,0.952,0.9754098360655737,250,False
+pump,condition_holdout,60,logistic_regression,5,1,Weak Leakage,0.8947368421052632,1.0,0.9444444444444444,102,False
+pump,condition_holdout,60,logistic_regression,5,2,Severe Leakage,1.0,1.0,1.0,102,True
+pump,condition_holdout,60,random_forest,5,0,Normal,1.0,1.0,1.0,250,False
+pump,condition_holdout,60,random_forest,5,1,Weak Leakage,1.0,1.0,1.0,102,False
+pump,condition_holdout,60,random_forest,5,2,Severe Leakage,1.0,1.0,1.0,102,True
+valve,random_cycle,5,logistic_regression,1,73,Close to Failure,0.3,0.375,0.3333333333333333,72,True
+valve,random_cycle,5,logistic_regression,1,80,Severe Switching Lag,0.22058823529411764,0.22058823529411764,0.22058823529411764,68,False
+valve,random_cycle,5,logistic_regression,1,90,Small Switching Lag,0.21100917431192662,0.2948717948717949,0.24598930481283424,78,False
+valve,random_cycle,5,logistic_regression,1,100,Optimal Switching,0.8160919540229885,0.6367713004484304,0.7153652392947103,223,False
+valve,random_cycle,5,random_forest,1,73,Close to Failure,0.7142857142857143,0.625,0.6666666666666666,72,True
+valve,random_cycle,5,random_forest,1,80,Severe Switching Lag,0.5223880597014925,0.5147058823529411,0.5185185185185185,68,False
+valve,random_cycle,5,random_forest,1,90,Small Switching Lag,0.5901639344262295,0.46153846153846156,0.5179856115107914,78,False
+valve,random_cycle,5,random_forest,1,100,Optimal Switching,0.828,0.9282511210762332,0.8752642706131079,223,False
+valve,random_cycle,5,logistic_regression,2,73,Close to Failure,0.2054794520547945,0.21739130434782608,0.2112676056338028,69,True
+valve,random_cycle,5,logistic_regression,2,80,Severe Switching Lag,0.1978021978021978,0.24324324324324326,0.21818181818181817,74,False
+valve,random_cycle,5,logistic_regression,2,90,Small Switching Lag,0.2631578947368421,0.352112676056338,0.30120481927710846,71,False
+valve,random_cycle,5,logistic_regression,2,100,Optimal Switching,0.8186813186813187,0.6563876651982379,0.7286063569682152,227,False
+valve,random_cycle,5,random_forest,2,73,Close to Failure,0.6857142857142857,0.6956521739130435,0.6906474820143885,69,True
+valve,random_cycle,5,random_forest,2,80,Severe Switching Lag,0.5185185185185185,0.5675675675675675,0.5419354838709678,74,False
+valve,random_cycle,5,random_forest,2,90,Small Switching Lag,0.6153846153846154,0.4507042253521127,0.5203252032520326,71,False
+valve,random_cycle,5,random_forest,2,100,Optimal Switching,0.865546218487395,0.9074889867841409,0.886021505376344,227,False
+valve,random_cycle,5,logistic_regression,3,73,Close to Failure,0.3229166666666667,0.4305555555555556,0.36904761904761907,72,True
+valve,random_cycle,5,logistic_regression,3,80,Severe Switching Lag,0.18072289156626506,0.20270270270270271,0.1910828025477707,74,False
+valve,random_cycle,5,logistic_regression,3,90,Small Switching Lag,0.24175824175824176,0.2972972972972973,0.26666666666666666,74,False
+valve,random_cycle,5,logistic_regression,3,100,Optimal Switching,0.8304093567251462,0.6425339366515838,0.7244897959183674,221,False
+valve,random_cycle,5,random_forest,3,73,Close to Failure,0.6363636363636364,0.5833333333333334,0.6086956521739131,72,True
+valve,random_cycle,5,random_forest,3,80,Severe Switching Lag,0.4931506849315068,0.4864864864864865,0.4897959183673469,74,False
+valve,random_cycle,5,random_forest,3,90,Small Switching Lag,0.43902439024390244,0.4864864864864865,0.46153846153846156,74,False
+valve,random_cycle,5,random_forest,3,100,Optimal Switching,0.8636363636363636,0.8597285067873304,0.8616780045351474,221,False
+valve,random_cycle,5,logistic_regression,4,73,Close to Failure,0.36,0.375,0.3673469387755102,72,True
+valve,random_cycle,5,logistic_regression,4,80,Severe Switching Lag,0.20224719101123595,0.2727272727272727,0.23225806451612904,66,False
+valve,random_cycle,5,logistic_regression,4,90,Small Switching Lag,0.26262626262626265,0.3880597014925373,0.3132530120481928,67,False
+valve,random_cycle,5,logistic_regression,4,100,Optimal Switching,0.8764044943820225,0.6610169491525424,0.7536231884057971,236,False
+valve,random_cycle,5,random_forest,4,73,Close to Failure,0.6352941176470588,0.75,0.6878980891719745,72,True
+valve,random_cycle,5,random_forest,4,80,Severe Switching Lag,0.5666666666666667,0.5151515151515151,0.5396825396825397,66,False
+valve,random_cycle,5,random_forest,4,90,Small Switching Lag,0.4583333333333333,0.4925373134328358,0.4748201438848921,67,False
+valve,random_cycle,5,random_forest,4,100,Optimal Switching,0.8883928571428571,0.8432203389830508,0.8652173913043478,236,False
+valve,random_cycle,5,logistic_regression,5,73,Close to Failure,0.26851851851851855,0.38666666666666666,0.31693989071038253,75,True
+valve,random_cycle,5,logistic_regression,5,80,Severe Switching Lag,0.19117647058823528,0.16666666666666666,0.1780821917808219,78,False
+valve,random_cycle,5,logistic_regression,5,90,Small Switching Lag,0.2,0.2857142857142857,0.23529411764705882,70,False
+valve,random_cycle,5,logistic_regression,5,100,Optimal Switching,0.8363636363636363,0.6330275229357798,0.720626631853786,218,False
+valve,random_cycle,5,random_forest,5,73,Close to Failure,0.7164179104477612,0.64,0.676056338028169,75,True
+valve,random_cycle,5,random_forest,5,80,Severe Switching Lag,0.6229508196721312,0.48717948717948717,0.5467625899280576,78,False
+valve,random_cycle,5,random_forest,5,90,Small Switching Lag,0.5522388059701493,0.5285714285714286,0.5401459854014599,70,False
+valve,random_cycle,5,random_forest,5,100,Optimal Switching,0.8292682926829268,0.9357798165137615,0.8793103448275862,218,False
+valve,block_aware,5,logistic_regression,1,73,Close to Failure,0.0374331550802139,0.23333333333333334,0.06451612903225806,30,True
+valve,block_aware,5,logistic_regression,1,80,Severe Switching Lag,0.1130952380952381,0.2111111111111111,0.14728682170542637,90,False
+valve,block_aware,5,logistic_regression,1,90,Small Switching Lag,0.07692307692307693,0.2,0.1111111111111111,30,False
+valve,block_aware,5,logistic_regression,1,100,Optimal Switching,0.4,0.013651877133105802,0.026402640264026403,293,False
+valve,block_aware,5,random_forest,1,73,Close to Failure,0.0,0.0,0.0,30,True
+valve,block_aware,5,random_forest,1,80,Severe Switching Lag,0.022222222222222223,0.011111111111111112,0.014814814814814815,90,False
+valve,block_aware,5,random_forest,1,90,Small Switching Lag,0.0,0.0,0.0,30,False
+valve,block_aware,5,random_forest,1,100,Optimal Switching,0.8584905660377359,0.310580204778157,0.45614035087719296,293,False
+valve,block_aware,5,logistic_regression,2,73,Close to Failure,0.11363636363636363,0.125,0.11904761904761904,80,True
+valve,block_aware,5,logistic_regression,2,80,Severe Switching Lag,0.058823529411764705,0.0875,0.07035175879396985,80,False
+valve,block_aware,5,logistic_regression,2,90,Small Switching Lag,0.19130434782608696,0.15714285714285714,0.17254901960784313,140,False
+valve,block_aware,5,logistic_regression,2,100,Optimal Switching,0.45528455284552843,0.38620689655172413,0.417910447761194,145,False
+valve,block_aware,5,random_forest,2,73,Close to Failure,0.04285714285714286,0.0375,0.04,80,True
+valve,block_aware,5,random_forest,2,80,Severe Switching Lag,0.0,0.0,0.0,80,False
+valve,block_aware,5,random_forest,2,90,Small Switching Lag,0.010416666666666666,0.007142857142857143,0.00847457627118644,140,False
+valve,block_aware,5,random_forest,2,100,Optimal Switching,0.34810126582278483,0.3793103448275862,0.36303630363036304,145,False
+valve,block_aware,5,logistic_regression,3,73,Close to Failure,0.10869565217391304,0.1875,0.13761467889908258,80,True
+valve,block_aware,5,logistic_regression,3,80,Severe Switching Lag,0.06756756756756757,0.125,0.08771929824561403,40,False
+valve,block_aware,5,logistic_regression,3,90,Small Switching Lag,0.06172839506172839,0.16666666666666666,0.09009009009009009,30,False
+valve,block_aware,5,logistic_regression,3,100,Optimal Switching,0.8835616438356164,0.4463667820069204,0.593103448275862,289,False
+valve,block_aware,5,random_forest,3,73,Close to Failure,0.10256410256410256,0.05,0.06722689075630252,80,True
+valve,block_aware,5,random_forest,3,80,Severe Switching Lag,0.0,0.0,0.0,40,False
+valve,block_aware,5,random_forest,3,90,Small Switching Lag,0.0,0.0,0.0,30,False
+valve,block_aware,5,random_forest,3,100,Optimal Switching,0.8451882845188284,0.698961937716263,0.7651515151515151,289,False
+valve,block_aware,5,logistic_regression,4,73,Close to Failure,0.29545454545454547,0.37142857142857144,0.3291139240506329,70,True
+valve,block_aware,5,logistic_regression,4,80,Severe Switching Lag,0.018018018018018018,0.1,0.030534351145038167,40,False
+valve,block_aware,5,logistic_regression,4,90,Small Switching Lag,0.08333333333333333,0.12857142857142856,0.10112359550561797,70,False
+valve,block_aware,5,logistic_regression,4,100,Optimal Switching,0.09523809523809523,0.007722007722007722,0.014285714285714285,259,False
+valve,block_aware,5,random_forest,4,73,Close to Failure,0.02,0.014285714285714285,0.016666666666666666,70,True
+valve,block_aware,5,random_forest,4,80,Severe Switching Lag,0.0,0.0,0.0,40,False
+valve,block_aware,5,random_forest,4,90,Small Switching Lag,0.0,0.0,0.0,70,False
+valve,block_aware,5,random_forest,4,100,Optimal Switching,0.5606060606060606,0.42857142857142855,0.48577680525164113,259,False
+valve,block_aware,5,logistic_regression,5,73,Close to Failure,0.14432989690721648,0.14,0.14213197969543148,100,True
+valve,block_aware,5,logistic_regression,5,80,Severe Switching Lag,0.21428571428571427,0.24545454545454545,0.2288135593220339,110,False
+valve,block_aware,5,logistic_regression,5,90,Small Switching Lag,0.2,0.26666666666666666,0.22857142857142856,90,False
+valve,block_aware,5,logistic_regression,5,100,Optimal Switching,0.4375,0.302158273381295,0.3574468085106383,139,False
+valve,block_aware,5,random_forest,5,73,Close to Failure,0.0,0.0,0.0,100,True
+valve,block_aware,5,random_forest,5,80,Severe Switching Lag,0.0,0.0,0.0,110,False
+valve,block_aware,5,random_forest,5,90,Small Switching Lag,0.06358381502890173,0.12222222222222222,0.08365019011406843,90,False
+valve,block_aware,5,random_forest,5,100,Optimal Switching,0.2828282828282828,0.2014388489208633,0.23529411764705882,139,False
+valve,condition_holdout,5,logistic_regression,1,73,Close to Failure,0.060498220640569395,0.34,0.1027190332326284,50,True
+valve,condition_holdout,5,logistic_regression,1,80,Severe Switching Lag,0.18181818181818182,0.125,0.14814814814814814,80,False
+valve,condition_holdout,5,logistic_regression,1,90,Small Switching Lag,0.10989010989010989,0.2,0.14184397163120568,50,False
+valve,condition_holdout,5,logistic_regression,1,100,Optimal Switching,0.16666666666666666,0.011320754716981131,0.02120141342756184,265,False
+valve,condition_holdout,5,random_forest,1,73,Close to Failure,0.013513513513513514,0.06,0.022058823529411766,50,True
+valve,condition_holdout,5,random_forest,1,80,Severe Switching Lag,0.0,0.0,0.0,80,False
+valve,condition_holdout,5,random_forest,1,90,Small Switching Lag,0.0273972602739726,0.04,0.032520325203252036,50,False
+valve,condition_holdout,5,random_forest,1,100,Optimal Switching,0.30526315789473685,0.10943396226415095,0.16111111111111112,265,False
+valve,condition_holdout,5,logistic_regression,2,73,Close to Failure,0.12,0.17142857142857143,0.1411764705882353,70,True
+valve,condition_holdout,5,logistic_regression,2,80,Severe Switching Lag,0.08771929824561403,0.16666666666666666,0.11494252873563218,60,False
+valve,condition_holdout,5,logistic_regression,2,90,Small Switching Lag,0.20454545454545456,0.2076923076923077,0.20610687022900764,130,False
+valve,condition_holdout,5,logistic_regression,2,100,Optimal Switching,0.3764705882352941,0.1871345029239766,0.25,171,False
+valve,condition_holdout,5,random_forest,2,73,Close to Failure,0.0,0.0,0.0,70,True
+valve,condition_holdout,5,random_forest,2,80,Severe Switching Lag,0.008264462809917356,0.016666666666666666,0.011049723756906077,60,False
+valve,condition_holdout,5,random_forest,2,90,Small Switching Lag,0.011627906976744186,0.007692307692307693,0.009259259259259259,130,False
+valve,condition_holdout,5,random_forest,2,100,Optimal Switching,0.4050632911392405,0.3742690058479532,0.3890577507598784,171,False
+valve,condition_holdout,5,logistic_regression,3,73,Close to Failure,0.13432835820895522,0.3375,0.19217081850533807,80,True
+valve,condition_holdout,5,logistic_regression,3,80,Severe Switching Lag,0.15942028985507245,0.15714285714285714,0.15827338129496402,70,False
+valve,condition_holdout,5,logistic_regression,3,90,Small Switching Lag,0.09574468085106383,0.3,0.14516129032258066,30,False
+valve,condition_holdout,5,logistic_regression,3,100,Optimal Switching,0.8271604938271605,0.2528301886792453,0.3872832369942196,265,False
+valve,condition_holdout,5,random_forest,3,73,Close to Failure,0.0,0.0,0.0,80,True
+valve,condition_holdout,5,random_forest,3,80,Severe Switching Lag,0.02564102564102564,0.02857142857142857,0.02702702702702703,70,False
+valve,condition_holdout,5,random_forest,3,90,Small Switching Lag,0.018518518518518517,0.03333333333333333,0.023809523809523808,30,False
+valve,condition_holdout,5,random_forest,3,100,Optimal Switching,0.8106060606060606,0.8075471698113208,0.8090737240075614,265,False
+valve,condition_holdout,5,logistic_regression,4,73,Close to Failure,0.1415929203539823,0.16,0.15023474178403756,100,True
+valve,condition_holdout,5,logistic_regression,4,80,Severe Switching Lag,0.13043478260869565,0.10909090909090909,0.1188118811881188,110,False
+valve,condition_holdout,5,logistic_regression,4,90,Small Switching Lag,0.0707070707070707,0.1,0.08284023668639054,70,False
+valve,condition_holdout,5,logistic_regression,4,100,Optimal Switching,0.30952380952380953,0.26,0.2826086956521739,150,False
+valve,condition_holdout,5,random_forest,4,73,Close to Failure,0.014084507042253521,0.01,0.011695906432748537,100,True
+valve,condition_holdout,5,random_forest,4,80,Severe Switching Lag,0.045454545454545456,0.045454545454545456,0.045454545454545456,110,False
+valve,condition_holdout,5,random_forest,4,90,Small Switching Lag,0.0,0.0,0.0,70,False
+valve,condition_holdout,5,random_forest,4,100,Optimal Switching,0.34868421052631576,0.35333333333333333,0.3509933774834437,150,False
+valve,condition_holdout,5,logistic_regression,5,73,Close to Failure,0.0547945205479452,0.06666666666666667,0.06015037593984962,60,True
+valve,condition_holdout,5,logistic_regression,5,80,Severe Switching Lag,0.03755868544600939,0.2,0.06324110671936758,40,False
+valve,condition_holdout,5,logistic_regression,5,90,Small Switching Lag,0.0915032679738562,0.175,0.12017167381974249,80,False
+valve,condition_holdout,5,logistic_regression,5,100,Optimal Switching,0.13333333333333333,0.0072992700729927005,0.01384083044982699,274,False
+valve,condition_holdout,5,random_forest,5,73,Close to Failure,0.09803921568627451,0.08333333333333333,0.09009009009009009,60,True
+valve,condition_holdout,5,random_forest,5,80,Severe Switching Lag,0.009009009009009009,0.025,0.013245033112582781,40,False
+valve,condition_holdout,5,random_forest,5,90,Small Switching Lag,0.0,0.0,0.0,80,False
+valve,condition_holdout,5,random_forest,5,100,Optimal Switching,0.5416666666666666,0.1897810218978102,0.2810810810810811,274,False
+valve,random_cycle,60,logistic_regression,1,73,Close to Failure,1.0,0.9861111111111112,0.993006993006993,72,True
+valve,random_cycle,60,logistic_regression,1,80,Severe Switching Lag,0.9855072463768116,1.0,0.9927007299270073,68,False
+valve,random_cycle,60,logistic_regression,1,90,Small Switching Lag,0.975,1.0,0.9873417721518988,78,False
+valve,random_cycle,60,logistic_regression,1,100,Optimal Switching,1.0,0.9910313901345291,0.9954954954954955,223,False
+valve,random_cycle,60,random_forest,1,73,Close to Failure,0.9726027397260274,0.9861111111111112,0.9793103448275862,72,True
+valve,random_cycle,60,random_forest,1,80,Severe Switching Lag,0.9705882352941176,0.9705882352941176,0.9705882352941176,68,False
+valve,random_cycle,60,random_forest,1,90,Small Switching Lag,0.9864864864864865,0.9358974358974359,0.9605263157894737,78,False
+valve,random_cycle,60,random_forest,1,100,Optimal Switching,0.9823008849557522,0.9955156950672646,0.9888641425389755,223,False
+valve,random_cycle,60,logistic_regression,2,73,Close to Failure,0.9857142857142858,1.0,0.9928057553956835,69,True
+valve,random_cycle,60,logistic_regression,2,80,Severe Switching Lag,0.9864864864864865,0.9864864864864865,0.9864864864864865,74,False
+valve,random_cycle,60,logistic_regression,2,90,Small Switching Lag,0.9848484848484849,0.9154929577464789,0.948905109489051,71,False
+valve,random_cycle,60,logistic_regression,2,100,Optimal Switching,0.9783549783549783,0.9955947136563876,0.9868995633187773,227,False
+valve,random_cycle,60,random_forest,2,73,Close to Failure,0.9857142857142858,1.0,0.9928057553956835,69,True
+valve,random_cycle,60,random_forest,2,80,Severe Switching Lag,0.972972972972973,0.972972972972973,0.972972972972973,74,False
+valve,random_cycle,60,random_forest,2,90,Small Switching Lag,1.0,0.9577464788732394,0.9784172661870504,71,False
+valve,random_cycle,60,random_forest,2,100,Optimal Switching,0.9868995633187773,0.9955947136563876,0.9912280701754386,227,False
+valve,random_cycle,60,logistic_regression,3,73,Close to Failure,0.972972972972973,1.0,0.9863013698630136,72,True
+valve,random_cycle,60,logistic_regression,3,80,Severe Switching Lag,1.0,0.972972972972973,0.9863013698630136,74,False
+valve,random_cycle,60,logistic_regression,3,90,Small Switching Lag,0.971830985915493,0.9324324324324325,0.9517241379310345,74,False
+valve,random_cycle,60,logistic_regression,3,100,Optimal Switching,0.9776785714285714,0.9909502262443439,0.9842696629213483,221,False
+valve,random_cycle,60,random_forest,3,73,Close to Failure,1.0,1.0,1.0,72,True
+valve,random_cycle,60,random_forest,3,80,Severe Switching Lag,0.948051948051948,0.9864864864864865,0.9668874172185431,74,False
+valve,random_cycle,60,random_forest,3,90,Small Switching Lag,0.9726027397260274,0.9594594594594594,0.9659863945578231,74,False
+valve,random_cycle,60,random_forest,3,100,Optimal Switching,1.0,0.9909502262443439,0.9954545454545455,221,False
+valve,random_cycle,60,logistic_regression,4,73,Close to Failure,0.9861111111111112,0.9861111111111112,0.9861111111111112,72,True
+valve,random_cycle,60,logistic_regression,4,80,Severe Switching Lag,0.9848484848484849,0.9848484848484849,0.9848484848484849,66,False
+valve,random_cycle,60,logistic_regression,4,90,Small Switching Lag,1.0,0.9552238805970149,0.9770992366412213,67,False
+valve,random_cycle,60,logistic_regression,4,100,Optimal Switching,0.9874476987447699,1.0,0.9936842105263158,236,False
+valve,random_cycle,60,random_forest,4,73,Close to Failure,0.9863013698630136,1.0,0.993103448275862,72,True
+valve,random_cycle,60,random_forest,4,80,Severe Switching Lag,1.0,1.0,1.0,66,False
+valve,random_cycle,60,random_forest,4,90,Small Switching Lag,0.9846153846153847,0.9552238805970149,0.9696969696969697,67,False
+valve,random_cycle,60,random_forest,4,100,Optimal Switching,0.9873417721518988,0.9915254237288136,0.9894291754756871,236,False
+valve,random_cycle,60,logistic_regression,5,73,Close to Failure,0.972972972972973,0.96,0.9664429530201343,75,True
+valve,random_cycle,60,logistic_regression,5,80,Severe Switching Lag,0.974025974025974,0.9615384615384616,0.967741935483871,78,False
+valve,random_cycle,60,logistic_regression,5,90,Small Switching Lag,0.9333333333333333,1.0,0.9655172413793104,70,False
+valve,random_cycle,60,logistic_regression,5,100,Optimal Switching,1.0,0.9862385321100917,0.9930715935334873,218,False
+valve,random_cycle,60,random_forest,5,73,Close to Failure,0.974025974025974,1.0,0.9868421052631579,75,True
+valve,random_cycle,60,random_forest,5,80,Severe Switching Lag,0.974025974025974,0.9615384615384616,0.967741935483871,78,False
+valve,random_cycle,60,random_forest,5,90,Small Switching Lag,0.9859154929577465,1.0,0.9929078014184397,70,False
+valve,random_cycle,60,random_forest,5,100,Optimal Switching,1.0,0.9908256880733946,0.9953917050691244,218,False
+valve,block_aware,60,logistic_regression,1,73,Close to Failure,0.6428571428571429,0.9,0.75,30,True
+valve,block_aware,60,logistic_regression,1,80,Severe Switching Lag,0.9605263157894737,0.8111111111111111,0.8795180722891566,90,False
+valve,block_aware,60,logistic_regression,1,90,Small Switching Lag,0.5882352941176471,1.0,0.7407407407407407,30,False
+valve,block_aware,60,logistic_regression,1,100,Optimal Switching,1.0,0.9351535836177475,0.9664902998236331,293,False
+valve,block_aware,60,random_forest,1,73,Close to Failure,0.92,0.7666666666666667,0.8363636363636363,30,True
+valve,block_aware,60,random_forest,1,80,Severe Switching Lag,0.9156626506024096,0.8444444444444444,0.8786127167630058,90,False
+valve,block_aware,60,random_forest,1,90,Small Switching Lag,0.4,0.5333333333333333,0.45714285714285713,30,False
+valve,block_aware,60,random_forest,1,100,Optimal Switching,0.9491525423728814,0.9556313993174061,0.9523809523809523,293,False
+valve,block_aware,60,logistic_regression,2,73,Close to Failure,0.9859154929577465,0.875,0.9271523178807947,80,True
+valve,block_aware,60,logistic_regression,2,80,Severe Switching Lag,0.8888888888888888,1.0,0.9411764705882353,80,False
+valve,block_aware,60,logistic_regression,2,90,Small Switching Lag,0.968503937007874,0.8785714285714286,0.9213483146067416,140,False
+valve,block_aware,60,logistic_regression,2,100,Optimal Switching,0.8980891719745223,0.9724137931034482,0.9337748344370861,145,False
+valve,block_aware,60,random_forest,2,73,Close to Failure,0.9,0.675,0.7714285714285715,80,True
+valve,block_aware,60,random_forest,2,80,Severe Switching Lag,0.6386554621848739,0.95,0.7638190954773869,80,False
+valve,block_aware,60,random_forest,2,90,Small Switching Lag,0.9552238805970149,0.45714285714285713,0.6183574879227053,140,False
+valve,block_aware,60,random_forest,2,100,Optimal Switching,0.6984924623115578,0.9586206896551724,0.8081395348837209,145,False
+valve,block_aware,60,logistic_regression,3,73,Close to Failure,0.9841269841269841,0.775,0.8671328671328671,80,True
+valve,block_aware,60,logistic_regression,3,80,Severe Switching Lag,0.6842105263157895,0.975,0.8041237113402062,40,False
+valve,block_aware,60,logistic_regression,3,90,Small Switching Lag,0.7931034482758621,0.7666666666666667,0.7796610169491526,30,False
+valve,block_aware,60,logistic_regression,3,100,Optimal Switching,0.9758620689655172,0.9792387543252595,0.9775474956822107,289,False
+valve,block_aware,60,random_forest,3,73,Close to Failure,1.0,0.95,0.9743589743589743,80,True
+valve,block_aware,60,random_forest,3,80,Severe Switching Lag,0.9302325581395349,1.0,0.963855421686747,40,False
+valve,block_aware,60,random_forest,3,90,Small Switching Lag,0.3191489361702128,1.0,0.4838709677419355,30,False
+valve,block_aware,60,random_forest,3,100,Optimal Switching,1.0,0.7820069204152249,0.8776699029126214,289,False
+valve,block_aware,60,logistic_regression,4,73,Close to Failure,0.967741935483871,0.8571428571428571,0.9090909090909091,70,True
+valve,block_aware,60,logistic_regression,4,80,Severe Switching Lag,0.6842105263157895,0.975,0.8041237113402062,40,False
+valve,block_aware,60,logistic_regression,4,90,Small Switching Lag,0.2421875,0.8857142857142857,0.3803680981595092,70,False
+valve,block_aware,60,logistic_regression,4,100,Optimal Switching,0.953125,0.23552123552123552,0.37770897832817335,259,False
+valve,block_aware,60,random_forest,4,73,Close to Failure,0.9855072463768116,0.9714285714285714,0.9784172661870504,70,True
+valve,block_aware,60,random_forest,4,80,Severe Switching Lag,0.9459459459459459,0.875,0.9090909090909091,40,False
+valve,block_aware,60,random_forest,4,90,Small Switching Lag,0.6724137931034483,0.5571428571428572,0.609375,70,False
+valve,block_aware,60,random_forest,4,100,Optimal Switching,0.8909090909090909,0.9459459459459459,0.9176029962546817,259,False
+valve,block_aware,60,logistic_regression,5,73,Close to Failure,0.978021978021978,0.89,0.9319371727748691,100,True
+valve,block_aware,60,logistic_regression,5,80,Severe Switching Lag,0.8695652173913043,0.9090909090909091,0.8888888888888888,110,False
+valve,block_aware,60,logistic_regression,5,90,Small Switching Lag,0.7752808988764045,0.7666666666666667,0.770949720670391,90,False
+valve,block_aware,60,logistic_regression,5,100,Optimal Switching,0.8819444444444444,0.9136690647482014,0.8975265017667845,139,False
+valve,block_aware,60,random_forest,5,73,Close to Failure,0.9516129032258065,0.59,0.7283950617283951,100,True
+valve,block_aware,60,random_forest,5,80,Severe Switching Lag,0.6742424242424242,0.8090909090909091,0.7355371900826446,110,False
+valve,block_aware,60,random_forest,5,90,Small Switching Lag,0.6276595744680851,0.6555555555555556,0.6413043478260869,90,False
+valve,block_aware,60,random_forest,5,100,Optimal Switching,0.7814569536423841,0.8489208633093526,0.8137931034482758,139,False
+valve,condition_holdout,60,logistic_regression,1,73,Close to Failure,0.9523809523809523,0.8,0.8695652173913043,50,True
+valve,condition_holdout,60,logistic_regression,1,80,Severe Switching Lag,0.8850574712643678,0.9625,0.9221556886227545,80,False
+valve,condition_holdout,60,logistic_regression,1,90,Small Switching Lag,0.6329113924050633,1.0,0.7751937984496124,50,False
+valve,condition_holdout,60,logistic_regression,1,100,Optimal Switching,1.0,0.8943396226415095,0.9442231075697212,265,False
+valve,condition_holdout,60,random_forest,1,73,Close to Failure,1.0,1.0,1.0,50,True
+valve,condition_holdout,60,random_forest,1,80,Severe Switching Lag,0.9193548387096774,0.7125,0.8028169014084507,80,False
+valve,condition_holdout,60,random_forest,1,90,Small Switching Lag,0.5070422535211268,0.72,0.5950413223140496,50,False
+valve,condition_holdout,60,random_forest,1,100,Optimal Switching,0.950381679389313,0.939622641509434,0.9449715370018975,265,False
+valve,condition_holdout,60,logistic_regression,2,73,Close to Failure,0.971830985915493,0.9857142857142858,0.9787234042553191,70,True
+valve,condition_holdout,60,logistic_regression,2,80,Severe Switching Lag,0.9666666666666667,0.9666666666666667,0.9666666666666667,60,False
+valve,condition_holdout,60,logistic_regression,2,90,Small Switching Lag,0.8852459016393442,0.8307692307692308,0.8571428571428571,130,False
+valve,condition_holdout,60,logistic_regression,2,100,Optimal Switching,0.8876404494382022,0.9239766081871345,0.9054441260744985,171,False
+valve,condition_holdout,60,random_forest,2,73,Close to Failure,1.0,0.9714285714285714,0.9855072463768116,70,True
+valve,condition_holdout,60,random_forest,2,80,Severe Switching Lag,0.8620689655172413,0.8333333333333334,0.847457627118644,60,False
+valve,condition_holdout,60,random_forest,2,90,Small Switching Lag,0.8068181818181818,0.5461538461538461,0.6513761467889908,130,False
+valve,condition_holdout,60,random_forest,2,100,Optimal Switching,0.7050691244239631,0.8947368421052632,0.788659793814433,171,False
+valve,condition_holdout,60,logistic_regression,3,73,Close to Failure,0.95,0.95,0.95,80,True
+valve,condition_holdout,60,logistic_regression,3,80,Severe Switching Lag,0.9420289855072463,0.9285714285714286,0.935251798561151,70,False
+valve,condition_holdout,60,logistic_regression,3,90,Small Switching Lag,0.8787878787878788,0.9666666666666667,0.9206349206349206,30,False
+valve,condition_holdout,60,logistic_regression,3,100,Optimal Switching,0.9961977186311787,0.9886792452830189,0.9924242424242424,265,False
+valve,condition_holdout,60,random_forest,3,73,Close to Failure,0.9523809523809523,1.0,0.975609756097561,80,True
+valve,condition_holdout,60,random_forest,3,80,Severe Switching Lag,0.9701492537313433,0.9285714285714286,0.948905109489051,70,False
+valve,condition_holdout,60,random_forest,3,90,Small Switching Lag,0.30434782608695654,0.9333333333333333,0.45901639344262296,30,False
+valve,condition_holdout,60,random_forest,3,100,Optimal Switching,1.0,0.7622641509433963,0.8650963597430407,265,False
+valve,condition_holdout,60,logistic_regression,4,73,Close to Failure,0.9894736842105263,0.94,0.9641025641025641,100,True
+valve,condition_holdout,60,logistic_regression,4,80,Severe Switching Lag,0.9017857142857143,0.9181818181818182,0.9099099099099099,110,False
+valve,condition_holdout,60,logistic_regression,4,90,Small Switching Lag,0.7972972972972973,0.8428571428571429,0.8194444444444444,70,False
+valve,condition_holdout,60,logistic_regression,4,100,Optimal Switching,0.959731543624161,0.9533333333333334,0.9565217391304348,150,False
+valve,condition_holdout,60,random_forest,4,73,Close to Failure,0.8712871287128713,0.88,0.8756218905472637,100,True
+valve,condition_holdout,60,random_forest,4,80,Severe Switching Lag,0.8818181818181818,0.8818181818181818,0.8818181818181818,110,False
+valve,condition_holdout,60,random_forest,4,90,Small Switching Lag,0.6875,0.4714285714285714,0.559322033898305,70,False
+valve,condition_holdout,60,random_forest,4,100,Optimal Switching,0.7953216374269005,0.9066666666666666,0.8473520249221184,150,False
+valve,condition_holdout,60,logistic_regression,5,73,Close to Failure,0.9833333333333333,0.9833333333333333,0.9833333333333333,60,True
+valve,condition_holdout,60,logistic_regression,5,80,Severe Switching Lag,0.8,1.0,0.8888888888888888,40,False
+valve,condition_holdout,60,logistic_regression,5,90,Small Switching Lag,0.25868725868725867,0.8375,0.3952802359882006,80,False
+valve,condition_holdout,60,logistic_regression,5,100,Optimal Switching,0.9058823529411765,0.28102189781021897,0.42896935933147634,274,False
+valve,condition_holdout,60,random_forest,5,73,Close to Failure,0.9830508474576272,0.9666666666666667,0.9747899159663865,60,True
+valve,condition_holdout,60,random_forest,5,80,Severe Switching Lag,0.9090909090909091,1.0,0.9523809523809523,40,False
+valve,condition_holdout,60,random_forest,5,90,Small Switching Lag,0.6428571428571429,0.45,0.5294117647058824,80,False
+valve,condition_holdout,60,random_forest,5,100,Optimal Switching,0.8610169491525423,0.927007299270073,0.8927943760984183,274,False
+cooler,random_cycle,5,logistic_regression,1,3,Close to Failure,1.0,1.0,1.0,140,True
+cooler,random_cycle,5,logistic_regression,1,20,Reduced Efficiency,1.0,1.0,1.0,149,False
+cooler,random_cycle,5,logistic_regression,1,100,Full Efficiency,1.0,1.0,1.0,152,False
+cooler,random_cycle,5,random_forest,1,3,Close to Failure,0.9929078014184397,1.0,0.99644128113879,140,True
+cooler,random_cycle,5,random_forest,1,20,Reduced Efficiency,1.0,0.9932885906040269,0.9966329966329966,149,False
+cooler,random_cycle,5,random_forest,1,100,Full Efficiency,1.0,1.0,1.0,152,False
+cooler,random_cycle,5,logistic_regression,2,3,Close to Failure,1.0,0.9935897435897436,0.9967845659163987,156,True
+cooler,random_cycle,5,logistic_regression,2,20,Reduced Efficiency,0.9869281045751634,1.0,0.993421052631579,151,False
+cooler,random_cycle,5,logistic_regression,2,100,Full Efficiency,1.0,0.9925373134328358,0.9962546816479401,134,False
+cooler,random_cycle,5,random_forest,2,3,Close to Failure,1.0,1.0,1.0,156,True
+cooler,random_cycle,5,random_forest,2,20,Reduced Efficiency,0.993421052631579,1.0,0.9966996699669967,151,False
+cooler,random_cycle,5,random_forest,2,100,Full Efficiency,1.0,0.9925373134328358,0.9962546816479401,134,False
+cooler,random_cycle,5,logistic_regression,3,3,Close to Failure,0.9931972789115646,0.9931972789115646,0.9931972789115646,147,True
+cooler,random_cycle,5,logistic_regression,3,20,Reduced Efficiency,1.0,0.9930555555555556,0.9965156794425087,144,False
+cooler,random_cycle,5,logistic_regression,3,100,Full Efficiency,0.9933774834437086,1.0,0.9966777408637874,150,False
+cooler,random_cycle,5,random_forest,3,3,Close to Failure,0.9931972789115646,0.9931972789115646,0.9931972789115646,147,True
+cooler,random_cycle,5,random_forest,3,20,Reduced Efficiency,1.0,0.9930555555555556,0.9965156794425087,144,False
+cooler,random_cycle,5,random_forest,3,100,Full Efficiency,0.9933774834437086,1.0,0.9966777408637874,150,False
+cooler,random_cycle,5,logistic_regression,4,3,Close to Failure,1.0,1.0,1.0,151,True
+cooler,random_cycle,5,logistic_regression,4,20,Reduced Efficiency,1.0,1.0,1.0,146,False
+cooler,random_cycle,5,logistic_regression,4,100,Full Efficiency,1.0,1.0,1.0,144,False
+cooler,random_cycle,5,random_forest,4,3,Close to Failure,1.0,1.0,1.0,151,True
+cooler,random_cycle,5,random_forest,4,20,Reduced Efficiency,0.9931972789115646,1.0,0.9965870307167235,146,False
+cooler,random_cycle,5,random_forest,4,100,Full Efficiency,1.0,0.9930555555555556,0.9965156794425087,144,False
+cooler,random_cycle,5,logistic_regression,5,3,Close to Failure,1.0,1.0,1.0,138,True
+cooler,random_cycle,5,logistic_regression,5,20,Reduced Efficiency,1.0,1.0,1.0,142,False
+cooler,random_cycle,5,logistic_regression,5,100,Full Efficiency,1.0,1.0,1.0,161,False
+cooler,random_cycle,5,random_forest,5,3,Close to Failure,1.0,1.0,1.0,138,True
+cooler,random_cycle,5,random_forest,5,20,Reduced Efficiency,1.0,1.0,1.0,142,False
+cooler,random_cycle,5,random_forest,5,100,Full Efficiency,1.0,1.0,1.0,161,False
+cooler,block_aware,5,logistic_regression,1,3,Close to Failure,1.0,0.8906752411575563,0.9421768707482994,311,True
+cooler,block_aware,5,logistic_regression,1,20,Reduced Efficiency,0.7130434782608696,1.0,0.8324873096446701,82,False
+cooler,block_aware,5,logistic_regression,1,100,Full Efficiency,0.9803921568627451,1.0,0.9900990099009901,50,False
+cooler,block_aware,5,random_forest,1,3,Close to Failure,1.0,0.7395498392282959,0.8502772643253235,311,True
+cooler,block_aware,5,random_forest,1,20,Reduced Efficiency,0.5222929936305732,1.0,0.6861924686192469,82,False
+cooler,block_aware,5,random_forest,1,100,Full Efficiency,0.8928571428571429,1.0,0.9433962264150944,50,False
+cooler,block_aware,5,logistic_regression,2,3,Close to Failure,1.0,1.0,1.0,182,True
+cooler,block_aware,5,logistic_regression,2,20,Reduced Efficiency,1.0,1.0,1.0,132,False
+cooler,block_aware,5,logistic_regression,2,100,Full Efficiency,1.0,1.0,1.0,131,False
+cooler,block_aware,5,random_forest,2,3,Close to Failure,1.0,1.0,1.0,182,True
+cooler,block_aware,5,random_forest,2,20,Reduced Efficiency,1.0,1.0,1.0,132,False
+cooler,block_aware,5,random_forest,2,100,Full Efficiency,1.0,1.0,1.0,131,False
+cooler,block_aware,5,logistic_regression,3,3,Close to Failure,0.9545454545454546,1.0,0.9767441860465116,63,True
+cooler,block_aware,5,logistic_regression,3,20,Reduced Efficiency,1.0,0.987603305785124,0.9937629937629938,242,False
+cooler,block_aware,5,logistic_regression,3,100,Full Efficiency,1.0,1.0,1.0,134,False
+cooler,block_aware,5,random_forest,3,3,Close to Failure,0.984375,1.0,0.9921259842519685,63,True
+cooler,block_aware,5,random_forest,3,20,Reduced Efficiency,1.0,0.9958677685950413,0.9979296066252588,242,False
+cooler,block_aware,5,random_forest,3,100,Full Efficiency,1.0,1.0,1.0,134,False
+cooler,block_aware,5,logistic_regression,4,3,Close to Failure,1.0,1.0,1.0,43,True
+cooler,block_aware,5,logistic_regression,4,20,Reduced Efficiency,0.9338842975206612,1.0,0.9658119658119658,113,False
+cooler,block_aware,5,logistic_regression,4,100,Full Efficiency,1.0,0.9717314487632509,0.985663082437276,283,False
+cooler,block_aware,5,random_forest,4,3,Close to Failure,1.0,1.0,1.0,43,True
+cooler,block_aware,5,random_forest,4,20,Reduced Efficiency,0.9416666666666667,1.0,0.9699570815450643,113,False
+cooler,block_aware,5,random_forest,4,100,Full Efficiency,1.0,0.9752650176678446,0.9874776386404294,283,False
+cooler,block_aware,5,logistic_regression,5,3,Close to Failure,1.0,0.9924812030075187,0.9962264150943396,133,True
+cooler,block_aware,5,logistic_regression,5,20,Reduced Efficiency,0.9939024390243902,1.0,0.9969418960244648,163,False
+cooler,block_aware,5,logistic_regression,5,100,Full Efficiency,1.0,1.0,1.0,143,False
+cooler,block_aware,5,random_forest,5,3,Close to Failure,1.0,1.0,1.0,133,True
+cooler,block_aware,5,random_forest,5,20,Reduced Efficiency,1.0,1.0,1.0,163,False
+cooler,block_aware,5,random_forest,5,100,Full Efficiency,1.0,1.0,1.0,143,False
+cooler,condition_holdout,5,logistic_regression,1,3,Close to Failure,1.0,0.8839590443686007,0.9384057971014492,293,True
+cooler,condition_holdout,5,logistic_regression,1,20,Reduced Efficiency,0.6451612903225806,1.0,0.7843137254901961,60,False
+cooler,condition_holdout,5,logistic_regression,1,100,Full Efficiency,0.989247311827957,1.0,0.9945945945945946,92,False
+cooler,condition_holdout,5,random_forest,1,3,Close to Failure,1.0,0.962457337883959,0.9808695652173913,293,True
+cooler,condition_holdout,5,random_forest,1,20,Reduced Efficiency,0.9375,1.0,0.967741935483871,60,False
+cooler,condition_holdout,5,random_forest,1,100,Full Efficiency,0.9292929292929293,1.0,0.9633507853403142,92,False
+cooler,condition_holdout,5,logistic_regression,2,3,Close to Failure,1.0,1.0,1.0,143,True
+cooler,condition_holdout,5,logistic_regression,2,20,Reduced Efficiency,1.0,1.0,1.0,134,False
+cooler,condition_holdout,5,logistic_regression,2,100,Full Efficiency,1.0,1.0,1.0,154,False
+cooler,condition_holdout,5,random_forest,2,3,Close to Failure,1.0,1.0,1.0,143,True
+cooler,condition_holdout,5,random_forest,2,20,Reduced Efficiency,1.0,1.0,1.0,134,False
+cooler,condition_holdout,5,random_forest,2,100,Full Efficiency,1.0,1.0,1.0,154,False
+cooler,condition_holdout,5,logistic_regression,3,3,Close to Failure,0.9292929292929293,1.0,0.9633507853403142,92,True
+cooler,condition_holdout,5,logistic_regression,3,20,Reduced Efficiency,1.0,0.9752650176678446,0.9874776386404294,283,False
+cooler,condition_holdout,5,logistic_regression,3,100,Full Efficiency,1.0,1.0,1.0,70,False
+cooler,condition_holdout,5,random_forest,3,3,Close to Failure,0.989247311827957,1.0,0.9945945945945946,92,True
+cooler,condition_holdout,5,random_forest,3,20,Reduced Efficiency,1.0,0.9964664310954063,0.9982300884955753,283,False
+cooler,condition_holdout,5,random_forest,3,100,Full Efficiency,1.0,1.0,1.0,70,False
+cooler,condition_holdout,5,logistic_regression,4,3,Close to Failure,1.0,1.0,1.0,164,True
+cooler,condition_holdout,5,logistic_regression,4,20,Reduced Efficiency,1.0,1.0,1.0,143,False
+cooler,condition_holdout,5,logistic_regression,4,100,Full Efficiency,1.0,1.0,1.0,123,False
+cooler,condition_holdout,5,random_forest,4,3,Close to Failure,1.0,1.0,1.0,164,True
+cooler,condition_holdout,5,random_forest,4,20,Reduced Efficiency,1.0,1.0,1.0,143,False
+cooler,condition_holdout,5,random_forest,4,100,Full Efficiency,1.0,1.0,1.0,123,False
+cooler,condition_holdout,5,logistic_regression,5,3,Close to Failure,1.0,1.0,1.0,40,True
+cooler,condition_holdout,5,logistic_regression,5,20,Reduced Efficiency,0.9256198347107438,1.0,0.9613733905579399,112,False
+cooler,condition_holdout,5,logistic_regression,5,100,Full Efficiency,1.0,0.9701986754966887,0.984873949579832,302,False
+cooler,condition_holdout,5,random_forest,5,3,Close to Failure,1.0,1.0,1.0,40,True
+cooler,condition_holdout,5,random_forest,5,20,Reduced Efficiency,0.9411764705882353,1.0,0.9696969696969697,112,False
+cooler,condition_holdout,5,random_forest,5,100,Full Efficiency,1.0,0.9768211920529801,0.9882747068676717,302,False
+cooler,random_cycle,60,logistic_regression,1,3,Close to Failure,1.0,1.0,1.0,140,True
+cooler,random_cycle,60,logistic_regression,1,20,Reduced Efficiency,1.0,1.0,1.0,149,False
+cooler,random_cycle,60,logistic_regression,1,100,Full Efficiency,1.0,1.0,1.0,152,False
+cooler,random_cycle,60,random_forest,1,3,Close to Failure,1.0,1.0,1.0,140,True
+cooler,random_cycle,60,random_forest,1,20,Reduced Efficiency,1.0,1.0,1.0,149,False
+cooler,random_cycle,60,random_forest,1,100,Full Efficiency,1.0,1.0,1.0,152,False
+cooler,random_cycle,60,logistic_regression,2,3,Close to Failure,1.0,1.0,1.0,156,True
+cooler,random_cycle,60,logistic_regression,2,20,Reduced Efficiency,1.0,1.0,1.0,151,False
+cooler,random_cycle,60,logistic_regression,2,100,Full Efficiency,1.0,1.0,1.0,134,False
+cooler,random_cycle,60,random_forest,2,3,Close to Failure,1.0,1.0,1.0,156,True
+cooler,random_cycle,60,random_forest,2,20,Reduced Efficiency,0.993421052631579,1.0,0.9966996699669967,151,False
+cooler,random_cycle,60,random_forest,2,100,Full Efficiency,1.0,0.9925373134328358,0.9962546816479401,134,False
+cooler,random_cycle,60,logistic_regression,3,3,Close to Failure,0.9932432432432432,1.0,0.9966101694915255,147,True
+cooler,random_cycle,60,logistic_regression,3,20,Reduced Efficiency,1.0,0.9930555555555556,0.9965156794425087,144,False
+cooler,random_cycle,60,logistic_regression,3,100,Full Efficiency,1.0,1.0,1.0,150,False
+cooler,random_cycle,60,random_forest,3,3,Close to Failure,0.9931972789115646,0.9931972789115646,0.9931972789115646,147,True
+cooler,random_cycle,60,random_forest,3,20,Reduced Efficiency,1.0,0.9930555555555556,0.9965156794425087,144,False
+cooler,random_cycle,60,random_forest,3,100,Full Efficiency,0.9933774834437086,1.0,0.9966777408637874,150,False
+cooler,random_cycle,60,logistic_regression,4,3,Close to Failure,1.0,1.0,1.0,151,True
+cooler,random_cycle,60,logistic_regression,4,20,Reduced Efficiency,1.0,1.0,1.0,146,False
+cooler,random_cycle,60,logistic_regression,4,100,Full Efficiency,1.0,1.0,1.0,144,False
+cooler,random_cycle,60,random_forest,4,3,Close to Failure,1.0,1.0,1.0,151,True
+cooler,random_cycle,60,random_forest,4,20,Reduced Efficiency,1.0,1.0,1.0,146,False
+cooler,random_cycle,60,random_forest,4,100,Full Efficiency,1.0,1.0,1.0,144,False
+cooler,random_cycle,60,logistic_regression,5,3,Close to Failure,1.0,1.0,1.0,138,True
+cooler,random_cycle,60,logistic_regression,5,20,Reduced Efficiency,1.0,1.0,1.0,142,False
+cooler,random_cycle,60,logistic_regression,5,100,Full Efficiency,1.0,1.0,1.0,161,False
+cooler,random_cycle,60,random_forest,5,3,Close to Failure,1.0,1.0,1.0,138,True
+cooler,random_cycle,60,random_forest,5,20,Reduced Efficiency,1.0,1.0,1.0,142,False
+cooler,random_cycle,60,random_forest,5,100,Full Efficiency,1.0,1.0,1.0,161,False
+cooler,block_aware,60,logistic_regression,1,3,Close to Failure,1.0,0.9517684887459807,0.9752883031301482,311,True
+cooler,block_aware,60,logistic_regression,1,20,Reduced Efficiency,0.845360824742268,1.0,0.9162011173184358,82,False
+cooler,block_aware,60,logistic_regression,1,100,Full Efficiency,1.0,1.0,1.0,50,False
+cooler,block_aware,60,random_forest,1,3,Close to Failure,1.0,0.9807073954983923,0.9902597402597403,311,True
+cooler,block_aware,60,random_forest,1,20,Reduced Efficiency,1.0,1.0,1.0,82,False
+cooler,block_aware,60,random_forest,1,100,Full Efficiency,0.8928571428571429,1.0,0.9433962264150944,50,False
+cooler,block_aware,60,logistic_regression,2,3,Close to Failure,1.0,1.0,1.0,182,True
+cooler,block_aware,60,logistic_regression,2,20,Reduced Efficiency,1.0,1.0,1.0,132,False
+cooler,block_aware,60,logistic_regression,2,100,Full Efficiency,1.0,1.0,1.0,131,False
+cooler,block_aware,60,random_forest,2,3,Close to Failure,1.0,1.0,1.0,182,True
+cooler,block_aware,60,random_forest,2,20,Reduced Efficiency,1.0,1.0,1.0,132,False
+cooler,block_aware,60,random_forest,2,100,Full Efficiency,1.0,1.0,1.0,131,False
+cooler,block_aware,60,logistic_regression,3,3,Close to Failure,0.984375,1.0,0.9921259842519685,63,True
+cooler,block_aware,60,logistic_regression,3,20,Reduced Efficiency,1.0,0.9958677685950413,0.9979296066252588,242,False
+cooler,block_aware,60,logistic_regression,3,100,Full Efficiency,1.0,1.0,1.0,134,False
+cooler,block_aware,60,random_forest,3,3,Close to Failure,0.984375,1.0,0.9921259842519685,63,True
+cooler,block_aware,60,random_forest,3,20,Reduced Efficiency,1.0,0.9958677685950413,0.9979296066252588,242,False
+cooler,block_aware,60,random_forest,3,100,Full Efficiency,1.0,1.0,1.0,134,False
+cooler,block_aware,60,logistic_regression,4,3,Close to Failure,1.0,1.0,1.0,43,True
+cooler,block_aware,60,logistic_regression,4,20,Reduced Efficiency,0.8968253968253969,1.0,0.9456066945606695,113,False
+cooler,block_aware,60,logistic_regression,4,100,Full Efficiency,1.0,0.9540636042402827,0.976491862567812,283,False
+cooler,block_aware,60,random_forest,4,3,Close to Failure,1.0,1.0,1.0,43,True
+cooler,block_aware,60,random_forest,4,20,Reduced Efficiency,0.9495798319327731,1.0,0.9741379310344828,113,False
+cooler,block_aware,60,random_forest,4,100,Full Efficiency,1.0,0.9787985865724381,0.9892857142857143,283,False
+cooler,block_aware,60,logistic_regression,5,3,Close to Failure,1.0,1.0,1.0,133,True
+cooler,block_aware,60,logistic_regression,5,20,Reduced Efficiency,1.0,1.0,1.0,163,False
+cooler,block_aware,60,logistic_regression,5,100,Full Efficiency,1.0,1.0,1.0,143,False
+cooler,block_aware,60,random_forest,5,3,Close to Failure,1.0,1.0,1.0,133,True
+cooler,block_aware,60,random_forest,5,20,Reduced Efficiency,1.0,1.0,1.0,163,False
+cooler,block_aware,60,random_forest,5,100,Full Efficiency,1.0,1.0,1.0,143,False
+cooler,condition_holdout,60,logistic_regression,1,3,Close to Failure,1.0,0.9488054607508533,0.9737302977232924,293,True
+cooler,condition_holdout,60,logistic_regression,1,20,Reduced Efficiency,0.8,1.0,0.8888888888888888,60,False
+cooler,condition_holdout,60,logistic_regression,1,100,Full Efficiency,1.0,1.0,1.0,92,False
+cooler,condition_holdout,60,random_forest,1,3,Close to Failure,1.0,0.9795221843003413,0.9896551724137931,293,True
+cooler,condition_holdout,60,random_forest,1,20,Reduced Efficiency,1.0,1.0,1.0,60,False
+cooler,condition_holdout,60,random_forest,1,100,Full Efficiency,0.9387755102040817,1.0,0.968421052631579,92,False
+cooler,condition_holdout,60,logistic_regression,2,3,Close to Failure,1.0,1.0,1.0,143,True
+cooler,condition_holdout,60,logistic_regression,2,20,Reduced Efficiency,1.0,1.0,1.0,134,False
+cooler,condition_holdout,60,logistic_regression,2,100,Full Efficiency,1.0,1.0,1.0,154,False
+cooler,condition_holdout,60,random_forest,2,3,Close to Failure,1.0,1.0,1.0,143,True
+cooler,condition_holdout,60,random_forest,2,20,Reduced Efficiency,1.0,1.0,1.0,134,False
+cooler,condition_holdout,60,random_forest,2,100,Full Efficiency,1.0,1.0,1.0,154,False
+cooler,condition_holdout,60,logistic_regression,3,3,Close to Failure,0.989247311827957,1.0,0.9945945945945946,92,True
+cooler,condition_holdout,60,logistic_regression,3,20,Reduced Efficiency,1.0,0.9964664310954063,0.9982300884955753,283,False
+cooler,condition_holdout,60,logistic_regression,3,100,Full Efficiency,1.0,1.0,1.0,70,False
+cooler,condition_holdout,60,random_forest,3,3,Close to Failure,0.989247311827957,1.0,0.9945945945945946,92,True
+cooler,condition_holdout,60,random_forest,3,20,Reduced Efficiency,1.0,0.9964664310954063,0.9982300884955753,283,False
+cooler,condition_holdout,60,random_forest,3,100,Full Efficiency,1.0,1.0,1.0,70,False
+cooler,condition_holdout,60,logistic_regression,4,3,Close to Failure,1.0,1.0,1.0,164,True
+cooler,condition_holdout,60,logistic_regression,4,20,Reduced Efficiency,1.0,1.0,1.0,143,False
+cooler,condition_holdout,60,logistic_regression,4,100,Full Efficiency,1.0,1.0,1.0,123,False
+cooler,condition_holdout,60,random_forest,4,3,Close to Failure,1.0,1.0,1.0,164,True
+cooler,condition_holdout,60,random_forest,4,20,Reduced Efficiency,1.0,1.0,1.0,143,False
+cooler,condition_holdout,60,random_forest,4,100,Full Efficiency,1.0,1.0,1.0,123,False
+cooler,condition_holdout,60,logistic_regression,5,3,Close to Failure,1.0,1.0,1.0,40,True
+cooler,condition_holdout,60,logistic_regression,5,20,Reduced Efficiency,0.9256198347107438,1.0,0.9613733905579399,112,False
+cooler,condition_holdout,60,logistic_regression,5,100,Full Efficiency,1.0,0.9701986754966887,0.984873949579832,302,False
+cooler,condition_holdout,60,random_forest,5,3,Close to Failure,1.0,1.0,1.0,40,True
+cooler,condition_holdout,60,random_forest,5,20,Reduced Efficiency,0.9491525423728814,1.0,0.9739130434782609,112,False
+cooler,condition_holdout,60,random_forest,5,100,Full Efficiency,1.0,0.9801324503311258,0.9899665551839465,302,False
+accumulator,random_cycle,5,logistic_regression,1,90,Close to Failure,0.9764705882352941,0.9940119760479041,0.9851632047477745,167,True
+accumulator,random_cycle,5,logistic_regression,1,100,Severely Reduced Pressure,0.9864864864864865,0.9358974358974359,0.9605263157894737,78,False
+accumulator,random_cycle,5,logistic_regression,1,115,Slightly Reduced Pressure,0.8734177215189873,0.9324324324324325,0.9019607843137255,74,False
+accumulator,random_cycle,5,logistic_regression,1,130,Optimal Pressure,0.9491525423728814,0.9180327868852459,0.9333333333333333,122,False
+accumulator,random_cycle,5,random_forest,1,90,Close to Failure,0.9705882352941176,0.9880239520958084,0.9792284866468842,167,True
+accumulator,random_cycle,5,random_forest,1,100,Severely Reduced Pressure,0.96,0.9230769230769231,0.9411764705882353,78,False
+accumulator,random_cycle,5,random_forest,1,115,Slightly Reduced Pressure,0.9594594594594594,0.9594594594594594,0.9594594594594594,74,False
+accumulator,random_cycle,5,random_forest,1,130,Optimal Pressure,0.9918032786885246,0.9918032786885246,0.9918032786885246,122,False
+accumulator,random_cycle,5,logistic_regression,2,90,Close to Failure,1.0,1.0,1.0,147,True
+accumulator,random_cycle,5,logistic_regression,2,100,Severely Reduced Pressure,0.948051948051948,0.9864864864864865,0.9668874172185431,74,False
+accumulator,random_cycle,5,logistic_regression,2,115,Slightly Reduced Pressure,0.8260869565217391,0.8941176470588236,0.8587570621468926,85,False
+accumulator,random_cycle,5,logistic_regression,2,130,Optimal Pressure,0.96,0.8888888888888888,0.9230769230769231,135,False
+accumulator,random_cycle,5,random_forest,2,90,Close to Failure,0.9865771812080537,1.0,0.9932432432432432,147,True
+accumulator,random_cycle,5,random_forest,2,100,Severely Reduced Pressure,0.9855072463768116,0.918918918918919,0.951048951048951,74,False
+accumulator,random_cycle,5,random_forest,2,115,Slightly Reduced Pressure,0.9431818181818182,0.9764705882352941,0.9595375722543352,85,False
+accumulator,random_cycle,5,random_forest,2,130,Optimal Pressure,0.9925925925925926,0.9925925925925926,0.9925925925925926,135,False
+accumulator,random_cycle,5,logistic_regression,3,90,Close to Failure,0.9938650306748467,0.9938650306748467,0.9938650306748467,163,True
+accumulator,random_cycle,5,logistic_regression,3,100,Severely Reduced Pressure,0.975609756097561,0.975609756097561,0.975609756097561,82,False
+accumulator,random_cycle,5,logistic_regression,3,115,Slightly Reduced Pressure,0.9036144578313253,0.9259259259259259,0.9146341463414634,81,False
+accumulator,random_cycle,5,logistic_regression,3,130,Optimal Pressure,0.9469026548672567,0.9304347826086956,0.9385964912280702,115,False
+accumulator,random_cycle,5,random_forest,3,90,Close to Failure,0.99375,0.9754601226993865,0.9845201238390093,163,True
+accumulator,random_cycle,5,random_forest,3,100,Severely Reduced Pressure,0.9418604651162791,0.9878048780487805,0.9642857142857143,82,False
+accumulator,random_cycle,5,random_forest,3,115,Slightly Reduced Pressure,0.9876543209876543,0.9876543209876543,0.9876543209876543,81,False
+accumulator,random_cycle,5,random_forest,3,130,Optimal Pressure,1.0,0.991304347826087,0.9956331877729258,115,False
+accumulator,random_cycle,5,logistic_regression,4,90,Close to Failure,0.9878787878787879,1.0,0.9939024390243902,163,True
+accumulator,random_cycle,5,logistic_regression,4,100,Severely Reduced Pressure,0.9620253164556962,0.9743589743589743,0.9681528662420382,78,False
+accumulator,random_cycle,5,logistic_regression,4,115,Slightly Reduced Pressure,0.9069767441860465,0.9285714285714286,0.9176470588235294,84,False
+accumulator,random_cycle,5,logistic_regression,4,130,Optimal Pressure,0.954954954954955,0.9137931034482759,0.933920704845815,116,False
+accumulator,random_cycle,5,random_forest,4,90,Close to Failure,0.9939024390243902,1.0,0.9969418960244648,163,True
+accumulator,random_cycle,5,random_forest,4,100,Severely Reduced Pressure,0.9868421052631579,0.9615384615384616,0.974025974025974,78,False
+accumulator,random_cycle,5,random_forest,4,115,Slightly Reduced Pressure,0.9761904761904762,0.9761904761904762,0.9761904761904762,84,False
+accumulator,random_cycle,5,random_forest,4,130,Optimal Pressure,0.9914529914529915,1.0,0.9957081545064378,116,False
+accumulator,random_cycle,5,logistic_regression,5,90,Close to Failure,1.0,0.9880952380952381,0.9940119760479041,168,True
+accumulator,random_cycle,5,logistic_regression,5,100,Severely Reduced Pressure,0.9555555555555556,0.9885057471264368,0.9717514124293786,87,False
+accumulator,random_cycle,5,logistic_regression,5,115,Slightly Reduced Pressure,0.948051948051948,0.9733333333333334,0.9605263157894737,75,False
+accumulator,random_cycle,5,logistic_regression,5,130,Optimal Pressure,0.9814814814814815,0.954954954954955,0.9680365296803652,111,False
+accumulator,random_cycle,5,random_forest,5,90,Close to Failure,1.0,0.9880952380952381,0.9940119760479041,168,True
+accumulator,random_cycle,5,random_forest,5,100,Severely Reduced Pressure,0.9764705882352941,0.9540229885057471,0.9651162790697675,87,False
+accumulator,random_cycle,5,random_forest,5,115,Slightly Reduced Pressure,0.925,0.9866666666666667,0.9548387096774194,75,False
+accumulator,random_cycle,5,random_forest,5,130,Optimal Pressure,1.0,0.990990990990991,0.995475113122172,111,False
+accumulator,block_aware,5,logistic_regression,1,90,Close to Failure,0.9365079365079365,0.9833333333333333,0.959349593495935,60,True
+accumulator,block_aware,5,logistic_regression,1,100,Severely Reduced Pressure,0.9104477611940298,1.0,0.953125,61,False
+accumulator,block_aware,5,logistic_regression,1,115,Slightly Reduced Pressure,0.8888888888888888,0.7843137254901961,0.8333333333333334,51,False
+accumulator,block_aware,5,logistic_regression,1,130,Optimal Pressure,0.9664179104477612,0.955719557195572,0.961038961038961,271,False
+accumulator,block_aware,5,random_forest,1,90,Close to Failure,0.8805970149253731,0.9833333333333333,0.9291338582677166,60,True
+accumulator,block_aware,5,random_forest,1,100,Severely Reduced Pressure,0.9107142857142857,0.8360655737704918,0.8717948717948718,61,False
+accumulator,block_aware,5,random_forest,1,115,Slightly Reduced Pressure,0.7777777777777778,0.9607843137254902,0.8596491228070176,51,False
+accumulator,block_aware,5,random_forest,1,130,Optimal Pressure,0.9961089494163424,0.9446494464944649,0.9696969696969697,271,False
+accumulator,block_aware,5,logistic_regression,2,90,Close to Failure,0.9797297297297297,0.9539473684210527,0.9666666666666667,152,True
+accumulator,block_aware,5,logistic_regression,2,100,Severely Reduced Pressure,0.8055555555555556,0.9666666666666667,0.8787878787878788,90,False
+accumulator,block_aware,5,logistic_regression,2,115,Slightly Reduced Pressure,0.7439024390243902,0.8472222222222222,0.7922077922077922,72,False
+accumulator,block_aware,5,logistic_regression,2,130,Optimal Pressure,0.9345794392523364,0.7633587786259542,0.8403361344537815,131,False
+accumulator,block_aware,5,random_forest,2,90,Close to Failure,0.954248366013072,0.9605263157894737,0.9573770491803278,152,True
+accumulator,block_aware,5,random_forest,2,100,Severely Reduced Pressure,0.8529411764705882,0.9666666666666667,0.90625,90,False
+accumulator,block_aware,5,random_forest,2,115,Slightly Reduced Pressure,0.9264705882352942,0.875,0.9,72,False
+accumulator,block_aware,5,random_forest,2,130,Optimal Pressure,0.9836065573770492,0.916030534351145,0.9486166007905138,131,False
+accumulator,block_aware,5,logistic_regression,3,90,Close to Failure,0.9959677419354839,0.9762845849802372,0.9860279441117764,253,True
+accumulator,block_aware,5,logistic_regression,3,100,Severely Reduced Pressure,0.9518072289156626,0.9404761904761905,0.9461077844311377,84,False
+accumulator,block_aware,5,logistic_regression,3,115,Slightly Reduced Pressure,0.7714285714285715,0.8709677419354839,0.8181818181818182,62,False
+accumulator,block_aware,5,logistic_regression,3,130,Optimal Pressure,0.8157894736842105,0.775,0.7948717948717948,40,False
+accumulator,block_aware,5,random_forest,3,90,Close to Failure,1.0,0.17786561264822134,0.30201342281879195,253,True
+accumulator,block_aware,5,random_forest,3,100,Severely Reduced Pressure,0.9605263157894737,0.8690476190476191,0.9125,84,False
+accumulator,block_aware,5,random_forest,3,115,Slightly Reduced Pressure,0.31155778894472363,1.0,0.47509578544061304,62,False
+accumulator,block_aware,5,random_forest,3,130,Optimal Pressure,0.33613445378151263,1.0,0.5031446540880503,40,False
+accumulator,block_aware,5,logistic_regression,4,90,Close to Failure,1.0,0.9961977186311787,0.9980952380952381,263,True
+accumulator,block_aware,5,logistic_regression,4,100,Severely Reduced Pressure,0.9111111111111111,1.0,0.9534883720930233,41,False
+accumulator,block_aware,5,logistic_regression,4,115,Slightly Reduced Pressure,0.9101123595505618,1.0,0.9529411764705882,81,False
+accumulator,block_aware,5,logistic_regression,4,130,Optimal Pressure,1.0,0.7962962962962963,0.8865979381443299,54,False
+accumulator,block_aware,5,random_forest,4,90,Close to Failure,0.987012987012987,0.8669201520912547,0.9230769230769231,263,True
+accumulator,block_aware,5,random_forest,4,100,Severely Reduced Pressure,0.5324675324675324,1.0,0.6949152542372882,41,False
+accumulator,block_aware,5,random_forest,4,115,Slightly Reduced Pressure,1.0,0.9876543209876543,0.9937888198757764,81,False
+accumulator,block_aware,5,random_forest,4,130,Optimal Pressure,1.0,0.9444444444444444,0.9714285714285714,54,False
+accumulator,block_aware,5,logistic_regression,5,90,Close to Failure,0.8586956521739131,0.9875,0.9186046511627907,80,True
+accumulator,block_aware,5,logistic_regression,5,100,Severely Reduced Pressure,0.9906542056074766,0.8617886178861789,0.9217391304347826,123,False
+accumulator,block_aware,5,logistic_regression,5,115,Slightly Reduced Pressure,0.8828125,0.849624060150376,0.8659003831417624,133,False
+accumulator,block_aware,5,logistic_regression,5,130,Optimal Pressure,0.7946428571428571,0.8640776699029126,0.827906976744186,103,False
+accumulator,block_aware,5,random_forest,5,90,Close to Failure,0.6638655462184874,0.9875,0.7939698492462312,80,True
+accumulator,block_aware,5,random_forest,5,100,Severely Reduced Pressure,0.978021978021978,0.7235772357723578,0.8317757009345794,123,False
+accumulator,block_aware,5,random_forest,5,115,Slightly Reduced Pressure,0.9504132231404959,0.8646616541353384,0.905511811023622,133,False
+accumulator,block_aware,5,random_forest,5,130,Optimal Pressure,0.9259259259259259,0.970873786407767,0.9478672985781991,103,False
+accumulator,condition_holdout,5,logistic_regression,1,90,Close to Failure,0.7948717948717948,1.0,0.8857142857142857,31,True
+accumulator,condition_holdout,5,logistic_regression,1,100,Severely Reduced Pressure,0.8163265306122449,0.975609756097561,0.8888888888888888,41,False
+accumulator,condition_holdout,5,logistic_regression,1,115,Slightly Reduced Pressure,0.9036144578313253,0.9375,0.9202453987730062,80,False
+accumulator,condition_holdout,5,logistic_regression,1,130,Optimal Pressure,0.9854014598540146,0.9215017064846417,0.9523809523809523,293,False
+accumulator,condition_holdout,5,random_forest,1,90,Close to Failure,0.6739130434782609,1.0,0.8051948051948052,31,True
+accumulator,condition_holdout,5,random_forest,1,100,Severely Reduced Pressure,0.9117647058823529,0.7560975609756098,0.8266666666666667,41,False
+accumulator,condition_holdout,5,random_forest,1,115,Slightly Reduced Pressure,0.7843137254901961,1.0,0.8791208791208791,80,False
+accumulator,condition_holdout,5,random_forest,1,130,Optimal Pressure,1.0,0.8976109215017065,0.9460431654676259,293,False
+accumulator,condition_holdout,5,logistic_regression,2,90,Close to Failure,0.8888888888888888,1.0,0.9411764705882353,80,True
+accumulator,condition_holdout,5,logistic_regression,2,100,Severely Reduced Pressure,0.9923076923076923,0.8896551724137931,0.9381818181818182,145,False
+accumulator,condition_holdout,5,logistic_regression,2,115,Slightly Reduced Pressure,0.6884057971014492,0.9223300970873787,0.7883817427385892,103,False
+accumulator,condition_holdout,5,logistic_regression,2,130,Optimal Pressure,0.863013698630137,0.6116504854368932,0.7159090909090909,103,False
+accumulator,condition_holdout,5,random_forest,2,90,Close to Failure,0.6611570247933884,1.0,0.7960199004975125,80,True
+accumulator,condition_holdout,5,random_forest,2,100,Severely Reduced Pressure,0.9285714285714286,0.7172413793103448,0.8093385214007782,145,False
+accumulator,condition_holdout,5,random_forest,2,115,Slightly Reduced Pressure,0.8362068965517241,0.941747572815534,0.8858447488584474,103,False
+accumulator,condition_holdout,5,random_forest,2,130,Optimal Pressure,0.9878048780487805,0.7864077669902912,0.8756756756756757,103,False
+accumulator,condition_holdout,5,logistic_regression,3,90,Close to Failure,0.9968454258675079,0.978328173374613,0.9875,323,True
+accumulator,condition_holdout,5,logistic_regression,3,100,Severely Reduced Pressure,0.8987341772151899,1.0,0.9466666666666667,71,False
+accumulator,condition_holdout,5,logistic_regression,3,115,Slightly Reduced Pressure,0.9545454545454546,0.7,0.8076923076923077,30,False
+accumulator,condition_holdout,5,logistic_regression,3,130,Optimal Pressure,0.7777777777777778,1.0,0.875,21,False
+accumulator,condition_holdout,5,random_forest,3,90,Close to Failure,1.0,0.3157894736842105,0.48,323,True
+accumulator,condition_holdout,5,random_forest,3,100,Severely Reduced Pressure,0.7311827956989247,0.9577464788732394,0.8292682926829268,71,False
+accumulator,condition_holdout,5,random_forest,3,115,Slightly Reduced Pressure,0.16091954022988506,0.9333333333333333,0.27450980392156865,30,False
+accumulator,condition_holdout,5,random_forest,3,130,Optimal Pressure,0.27631578947368424,1.0,0.4329896907216495,21,False
+accumulator,condition_holdout,5,logistic_regression,4,90,Close to Failure,1.0,0.9911504424778761,0.9955555555555555,113,True
+accumulator,condition_holdout,5,logistic_regression,4,100,Severely Reduced Pressure,0.9278350515463918,0.989010989010989,0.9574468085106383,91,False
+accumulator,condition_holdout,5,logistic_regression,4,115,Slightly Reduced Pressure,0.9349593495934959,0.7931034482758621,0.8582089552238806,145,False
+accumulator,condition_holdout,5,logistic_regression,4,130,Optimal Pressure,0.7551020408163265,0.9135802469135802,0.8268156424581006,81,False
+accumulator,condition_holdout,5,random_forest,4,90,Close to Failure,0.990909090909091,0.9646017699115044,0.9775784753363229,113,True
+accumulator,condition_holdout,5,random_forest,4,100,Severely Reduced Pressure,0.7876106194690266,0.978021978021978,0.8725490196078431,91,False
+accumulator,condition_holdout,5,random_forest,4,115,Slightly Reduced Pressure,0.9823008849557522,0.7655172413793103,0.8604651162790697,145,False
+accumulator,condition_holdout,5,random_forest,4,130,Optimal Pressure,0.8404255319148937,0.9753086419753086,0.9028571428571428,81,False
+accumulator,condition_holdout,5,logistic_regression,5,90,Close to Failure,1.0,0.9961685823754789,0.9980806142034548,261,True
+accumulator,condition_holdout,5,logistic_regression,5,100,Severely Reduced Pressure,0.9622641509433962,1.0,0.9807692307692307,51,False
+accumulator,condition_holdout,5,logistic_regression,5,115,Slightly Reduced Pressure,0.6949152542372882,1.0,0.82,41,False
+accumulator,condition_holdout,5,logistic_regression,5,130,Optimal Pressure,1.0,0.8118811881188119,0.8961748633879781,101,False
+accumulator,condition_holdout,5,random_forest,5,90,Close to Failure,0.9955947136563876,0.8659003831417624,0.9262295081967213,261,True
+accumulator,condition_holdout,5,random_forest,5,100,Severely Reduced Pressure,0.5432098765432098,0.8627450980392157,0.6666666666666666,51,False
+accumulator,condition_holdout,5,random_forest,5,115,Slightly Reduced Pressure,0.76,0.926829268292683,0.8351648351648352,41,False
+accumulator,condition_holdout,5,random_forest,5,130,Optimal Pressure,1.0,0.9504950495049505,0.9746192893401016,101,False
+accumulator,random_cycle,60,logistic_regression,1,90,Close to Failure,0.9880239520958084,0.9880239520958084,0.9880239520958084,167,True
+accumulator,random_cycle,60,logistic_regression,1,100,Severely Reduced Pressure,0.9156626506024096,0.9743589743589743,0.9440993788819876,78,False
+accumulator,random_cycle,60,logistic_regression,1,115,Slightly Reduced Pressure,0.9428571428571428,0.8918918918918919,0.9166666666666666,74,False
+accumulator,random_cycle,60,logistic_regression,1,130,Optimal Pressure,0.9752066115702479,0.9672131147540983,0.9711934156378601,122,False
+accumulator,random_cycle,60,random_forest,1,90,Close to Failure,1.0,0.9760479041916168,0.9878787878787879,167,True
+accumulator,random_cycle,60,random_forest,1,100,Severely Reduced Pressure,0.9358974358974359,0.9358974358974359,0.9358974358974359,78,False
+accumulator,random_cycle,60,random_forest,1,115,Slightly Reduced Pressure,0.9240506329113924,0.9864864864864865,0.954248366013072,74,False
+accumulator,random_cycle,60,random_forest,1,130,Optimal Pressure,1.0,0.9918032786885246,0.9958847736625515,122,False
+accumulator,random_cycle,60,logistic_regression,2,90,Close to Failure,0.9863945578231292,0.9863945578231292,0.9863945578231292,147,True
+accumulator,random_cycle,60,logistic_regression,2,100,Severely Reduced Pressure,0.9459459459459459,0.9459459459459459,0.9459459459459459,74,False
+accumulator,random_cycle,60,logistic_regression,2,115,Slightly Reduced Pressure,0.8383838383838383,0.9764705882352941,0.9021739130434783,85,False
+accumulator,random_cycle,60,logistic_regression,2,130,Optimal Pressure,1.0,0.8962962962962963,0.9453125,135,False
+accumulator,random_cycle,60,random_forest,2,90,Close to Failure,1.0,1.0,1.0,147,True
+accumulator,random_cycle,60,random_forest,2,100,Severely Reduced Pressure,0.9859154929577465,0.9459459459459459,0.9655172413793104,74,False
+accumulator,random_cycle,60,random_forest,2,115,Slightly Reduced Pressure,0.9540229885057471,0.9764705882352941,0.9651162790697675,85,False
+accumulator,random_cycle,60,random_forest,2,130,Optimal Pressure,0.9926470588235294,1.0,0.996309963099631,135,False
+accumulator,random_cycle,60,logistic_regression,3,90,Close to Failure,1.0,0.9754601226993865,0.9875776397515528,163,True
+accumulator,random_cycle,60,logistic_regression,3,100,Severely Reduced Pressure,0.9204545454545454,0.9878048780487805,0.9529411764705882,82,False
+accumulator,random_cycle,60,logistic_regression,3,115,Slightly Reduced Pressure,0.9259259259259259,0.9259259259259259,0.9259259259259259,81,False
+accumulator,random_cycle,60,logistic_regression,3,130,Optimal Pressure,0.9734513274336283,0.9565217391304348,0.9649122807017544,115,False
+accumulator,random_cycle,60,random_forest,3,90,Close to Failure,1.0,0.9754601226993865,0.9875776397515528,163,True
+accumulator,random_cycle,60,random_forest,3,100,Severely Reduced Pressure,0.9529411764705882,0.9878048780487805,0.9700598802395209,82,False
+accumulator,random_cycle,60,random_forest,3,115,Slightly Reduced Pressure,0.9878048780487805,1.0,0.9938650306748467,81,False
+accumulator,random_cycle,60,random_forest,3,130,Optimal Pressure,1.0,1.0,1.0,115,False
+accumulator,random_cycle,60,logistic_regression,4,90,Close to Failure,1.0,0.9877300613496932,0.9938271604938271,163,True
+accumulator,random_cycle,60,logistic_regression,4,100,Severely Reduced Pressure,0.9390243902439024,0.9871794871794872,0.9625,78,False
+accumulator,random_cycle,60,logistic_regression,4,115,Slightly Reduced Pressure,0.9036144578313253,0.8928571428571429,0.8982035928143712,84,False
+accumulator,random_cycle,60,logistic_regression,4,130,Optimal Pressure,0.9565217391304348,0.9482758620689655,0.9523809523809523,116,False
+accumulator,random_cycle,60,random_forest,4,90,Close to Failure,0.9878787878787879,1.0,0.9939024390243902,163,True
+accumulator,random_cycle,60,random_forest,4,100,Severely Reduced Pressure,0.9620253164556962,0.9743589743589743,0.9681528662420382,78,False
+accumulator,random_cycle,60,random_forest,4,115,Slightly Reduced Pressure,1.0,0.9523809523809523,0.975609756097561,84,False
+accumulator,random_cycle,60,random_forest,4,130,Optimal Pressure,0.9914529914529915,1.0,0.9957081545064378,116,False
+accumulator,random_cycle,60,logistic_regression,5,90,Close to Failure,1.0,0.9702380952380952,0.9848942598187311,168,True
+accumulator,random_cycle,60,logistic_regression,5,100,Severely Reduced Pressure,0.9340659340659341,0.9770114942528736,0.9550561797752809,87,False
+accumulator,random_cycle,60,logistic_regression,5,115,Slightly Reduced Pressure,0.8765432098765432,0.9466666666666667,0.9102564102564102,75,False
+accumulator,random_cycle,60,logistic_regression,5,130,Optimal Pressure,0.9716981132075472,0.9279279279279279,0.9493087557603687,111,False
+accumulator,random_cycle,60,random_forest,5,90,Close to Failure,0.9939393939393939,0.9761904761904762,0.984984984984985,168,True
+accumulator,random_cycle,60,random_forest,5,100,Severely Reduced Pressure,0.9555555555555556,0.9885057471264368,0.9717514124293786,87,False
+accumulator,random_cycle,60,random_forest,5,115,Slightly Reduced Pressure,0.961038961038961,0.9866666666666667,0.9736842105263158,75,False
+accumulator,random_cycle,60,random_forest,5,130,Optimal Pressure,1.0,0.9819819819819819,0.990909090909091,111,False
+accumulator,block_aware,60,logistic_regression,1,90,Close to Failure,0.9836065573770492,1.0,0.9917355371900827,60,True
+accumulator,block_aware,60,logistic_regression,1,100,Severely Reduced Pressure,0.8939393939393939,0.9672131147540983,0.9291338582677166,61,False
+accumulator,block_aware,60,logistic_regression,1,115,Slightly Reduced Pressure,0.7457627118644068,0.8627450980392157,0.8,51,False
+accumulator,block_aware,60,logistic_regression,1,130,Optimal Pressure,0.980544747081712,0.9298892988929889,0.9545454545454546,271,False
+accumulator,block_aware,60,random_forest,1,90,Close to Failure,0.6379310344827587,0.6166666666666667,0.6271186440677966,60,True
+accumulator,block_aware,60,random_forest,1,100,Severely Reduced Pressure,0.6571428571428571,0.7540983606557377,0.7022900763358778,61,False
+accumulator,block_aware,60,random_forest,1,115,Slightly Reduced Pressure,0.7868852459016393,0.9411764705882353,0.8571428571428571,51,False
+accumulator,block_aware,60,random_forest,1,130,Optimal Pressure,0.9960629921259843,0.933579335793358,0.9638095238095238,271,False
+accumulator,block_aware,60,logistic_regression,2,90,Close to Failure,0.993103448275862,0.9473684210526315,0.9696969696969697,152,True
+accumulator,block_aware,60,logistic_regression,2,100,Severely Reduced Pressure,0.86,0.9555555555555556,0.9052631578947369,90,False
+accumulator,block_aware,60,logistic_regression,2,115,Slightly Reduced Pressure,0.6931818181818182,0.8472222222222222,0.7625,72,False
+accumulator,block_aware,60,logistic_regression,2,130,Optimal Pressure,0.9642857142857143,0.8244274809160306,0.8888888888888888,131,False
+accumulator,block_aware,60,random_forest,2,90,Close to Failure,0.9722222222222222,0.9210526315789473,0.9459459459459459,152,True
+accumulator,block_aware,60,random_forest,2,100,Severely Reduced Pressure,0.8365384615384616,0.9666666666666667,0.8969072164948454,90,False
+accumulator,block_aware,60,random_forest,2,115,Slightly Reduced Pressure,0.8518518518518519,0.6388888888888888,0.7301587301587301,72,False
+accumulator,block_aware,60,random_forest,2,130,Optimal Pressure,0.8881118881118881,0.9694656488549618,0.927007299270073,131,False
+accumulator,block_aware,60,logistic_regression,3,90,Close to Failure,1.0,0.83399209486166,0.9094827586206896,253,True
+accumulator,block_aware,60,logistic_regression,3,100,Severely Reduced Pressure,0.851063829787234,0.9523809523809523,0.898876404494382,84,False
+accumulator,block_aware,60,logistic_regression,3,115,Slightly Reduced Pressure,0.574468085106383,0.8709677419354839,0.6923076923076923,62,False
+accumulator,block_aware,60,logistic_regression,3,130,Optimal Pressure,0.85,0.85,0.85,40,False
+accumulator,block_aware,60,random_forest,3,90,Close to Failure,0.9019607843137255,0.18181818181818182,0.3026315789473684,253,True
+accumulator,block_aware,60,random_forest,3,100,Severely Reduced Pressure,0.9855072463768116,0.8095238095238095,0.8888888888888888,84,False
+accumulator,block_aware,60,random_forest,3,115,Slightly Reduced Pressure,0.7209302325581395,1.0,0.8378378378378378,62,False
+accumulator,block_aware,60,random_forest,3,130,Optimal Pressure,0.15021459227467812,0.875,0.2564102564102564,40,False
+accumulator,block_aware,60,logistic_regression,4,90,Close to Failure,0.9959349593495935,0.9315589353612167,0.962671905697446,263,True
+accumulator,block_aware,60,logistic_regression,4,100,Severely Reduced Pressure,0.6610169491525424,0.9512195121951219,0.78,41,False
+accumulator,block_aware,60,logistic_regression,4,115,Slightly Reduced Pressure,0.926829268292683,0.9382716049382716,0.9325153374233128,81,False
+accumulator,block_aware,60,logistic_regression,4,130,Optimal Pressure,0.9423076923076923,0.9074074074074074,0.9245283018867925,54,False
+accumulator,block_aware,60,random_forest,4,90,Close to Failure,0.9698492462311558,0.7338403041825095,0.8354978354978355,263,True
+accumulator,block_aware,60,random_forest,4,100,Severely Reduced Pressure,0.4090909090909091,0.8780487804878049,0.5581395348837209,41,False
+accumulator,block_aware,60,random_forest,4,115,Slightly Reduced Pressure,1.0,1.0,1.0,81,False
+accumulator,block_aware,60,random_forest,4,130,Optimal Pressure,0.7464788732394366,0.9814814814814815,0.848,54,False
+accumulator,block_aware,60,logistic_regression,5,90,Close to Failure,0.8315789473684211,0.9875,0.9028571428571428,80,True
+accumulator,block_aware,60,logistic_regression,5,100,Severely Reduced Pressure,0.9423076923076923,0.7967479674796748,0.8634361233480177,123,False
+accumulator,block_aware,60,logistic_regression,5,115,Slightly Reduced Pressure,0.7794117647058824,0.7969924812030075,0.7881040892193308,133,False
+accumulator,block_aware,60,logistic_regression,5,130,Optimal Pressure,0.7884615384615384,0.7961165048543689,0.7922705314009661,103,False
+accumulator,block_aware,60,random_forest,5,90,Close to Failure,0.5378151260504201,0.8,0.6432160804020101,80,True
+accumulator,block_aware,60,random_forest,5,100,Severely Reduced Pressure,0.9042553191489362,0.6910569105691057,0.783410138248848,123,False
+accumulator,block_aware,60,random_forest,5,115,Slightly Reduced Pressure,0.8347826086956521,0.7218045112781954,0.7741935483870968,133,False
+accumulator,block_aware,60,random_forest,5,130,Optimal Pressure,0.8468468468468469,0.912621359223301,0.8785046728971962,103,False
+accumulator,condition_holdout,60,logistic_regression,1,90,Close to Failure,1.0,0.9354838709677419,0.9666666666666667,31,True
+accumulator,condition_holdout,60,logistic_regression,1,100,Severely Reduced Pressure,0.8409090909090909,0.9024390243902439,0.8705882352941177,41,False
+accumulator,condition_holdout,60,logistic_regression,1,115,Slightly Reduced Pressure,0.7156862745098039,0.9125,0.8021978021978022,80,False
+accumulator,condition_holdout,60,logistic_regression,1,130,Optimal Pressure,0.9814814814814815,0.9044368600682594,0.9413854351687388,293,False
+accumulator,condition_holdout,60,random_forest,1,90,Close to Failure,0.5849056603773585,1.0,0.7380952380952381,31,True
+accumulator,condition_holdout,60,random_forest,1,100,Severely Reduced Pressure,1.0,0.7560975609756098,0.8611111111111112,41,False
+accumulator,condition_holdout,60,random_forest,1,115,Slightly Reduced Pressure,0.8555555555555555,0.9625,0.9058823529411765,80,False
+accumulator,condition_holdout,60,random_forest,1,130,Optimal Pressure,0.988929889298893,0.9146757679180887,0.950354609929078,293,False
+accumulator,condition_holdout,60,logistic_regression,2,90,Close to Failure,0.7789473684210526,0.925,0.8457142857142858,80,True
+accumulator,condition_holdout,60,logistic_regression,2,100,Severely Reduced Pressure,0.9130434782608695,0.7241379310344828,0.8076923076923077,145,False
+accumulator,condition_holdout,60,logistic_regression,2,115,Slightly Reduced Pressure,0.6934306569343066,0.9223300970873787,0.7916666666666666,103,False
+accumulator,condition_holdout,60,logistic_regression,2,130,Optimal Pressure,0.9523809523809523,0.7766990291262136,0.8556149732620321,103,False
+accumulator,condition_holdout,60,random_forest,2,90,Close to Failure,0.39037433155080214,0.9125,0.5468164794007491,80,True
+accumulator,condition_holdout,60,random_forest,2,100,Severely Reduced Pressure,0.7333333333333333,0.22758620689655173,0.3473684210526316,145,False
+accumulator,condition_holdout,60,random_forest,2,115,Slightly Reduced Pressure,0.6466165413533834,0.8349514563106796,0.7288135593220338,103,False
+accumulator,condition_holdout,60,random_forest,2,130,Optimal Pressure,0.8787878787878788,0.5631067961165048,0.6863905325443787,103,False
+accumulator,condition_holdout,60,logistic_regression,3,90,Close to Failure,0.9923664122137404,0.804953560371517,0.8888888888888888,323,True
+accumulator,condition_holdout,60,logistic_regression,3,100,Severely Reduced Pressure,0.7471264367816092,0.9154929577464789,0.8227848101265823,71,False
+accumulator,condition_holdout,60,logistic_regression,3,115,Slightly Reduced Pressure,0.35135135135135137,0.8666666666666667,0.5,30,False
+accumulator,condition_holdout,60,logistic_regression,3,130,Optimal Pressure,0.9545454545454546,1.0,0.9767441860465116,21,False
+accumulator,condition_holdout,60,random_forest,3,90,Close to Failure,0.81,0.25077399380804954,0.3829787234042553,323,True
+accumulator,condition_holdout,60,random_forest,3,100,Severely Reduced Pressure,0.5368421052631579,0.7183098591549296,0.6144578313253012,71,False
+accumulator,condition_holdout,60,random_forest,3,115,Slightly Reduced Pressure,0.9032258064516129,0.9333333333333333,0.9180327868852459,30,False
+accumulator,condition_holdout,60,random_forest,3,130,Optimal Pressure,0.0958904109589041,1.0,0.175,21,False
+accumulator,condition_holdout,60,logistic_regression,4,90,Close to Failure,1.0,0.9380530973451328,0.9680365296803652,113,True
+accumulator,condition_holdout,60,logistic_regression,4,100,Severely Reduced Pressure,0.743801652892562,0.989010989010989,0.8490566037735849,91,False
+accumulator,condition_holdout,60,logistic_regression,4,115,Slightly Reduced Pressure,0.9550561797752809,0.5862068965517241,0.7264957264957265,145,False
+accumulator,condition_holdout,60,logistic_regression,4,130,Optimal Pressure,0.6842105263157895,0.9629629629629629,0.8,81,False
+accumulator,condition_holdout,60,random_forest,4,90,Close to Failure,0.8173913043478261,0.831858407079646,0.8245614035087719,113,True
+accumulator,condition_holdout,60,random_forest,4,100,Severely Reduced Pressure,0.6386554621848739,0.8351648351648352,0.7238095238095238,91,False
+accumulator,condition_holdout,60,random_forest,4,115,Slightly Reduced Pressure,0.7831325301204819,0.4482758620689655,0.5701754385964912,145,False
+accumulator,condition_holdout,60,random_forest,4,130,Optimal Pressure,0.6548672566371682,0.9135802469135802,0.7628865979381443,81,False
+accumulator,condition_holdout,60,logistic_regression,5,90,Close to Failure,0.9883268482490273,0.9731800766283525,0.9806949806949807,261,True
+accumulator,condition_holdout,60,logistic_regression,5,100,Severely Reduced Pressure,0.8727272727272727,0.9411764705882353,0.9056603773584906,51,False
+accumulator,condition_holdout,60,logistic_regression,5,115,Slightly Reduced Pressure,0.6,0.9512195121951219,0.7358490566037735,41,False
+accumulator,condition_holdout,60,logistic_regression,5,130,Optimal Pressure,0.974025974025974,0.7425742574257426,0.8426966292134831,101,False
+accumulator,condition_holdout,60,random_forest,5,90,Close to Failure,0.9937888198757764,0.6130268199233716,0.7582938388625592,261,True
+accumulator,condition_holdout,60,random_forest,5,100,Severely Reduced Pressure,0.5730337078651685,1.0,0.7285714285714285,51,False
+accumulator,condition_holdout,60,random_forest,5,115,Slightly Reduced Pressure,0.8695652173913043,0.975609756097561,0.9195402298850575,41,False
+accumulator,condition_holdout,60,random_forest,5,130,Optimal Pressure,0.5949367088607594,0.9306930693069307,0.7258687258687259,101,False

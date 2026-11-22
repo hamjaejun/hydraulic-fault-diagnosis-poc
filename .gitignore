@@ -1,0 +1,42 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.key
+*.pem
+
+# UCI raw data, archives, and generated feature matrices
+data/raw/
+data/features/
+data/*.zip
+data/*.part
+
+# Reproducible trained models
+models/**/*.joblib
+models/*.joblib
+
+# Large reproducible predictions and execution logs
+results/**/out_of_fold_predictions.csv
+results/**/valve_oof_predictions.csv
+results/**/execution_log.txt
+results/**/benchmark_execution_log.txt
+*.log
+
+# Temporary/editor/OS files
+*.tmp
+*.temp
+~$*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

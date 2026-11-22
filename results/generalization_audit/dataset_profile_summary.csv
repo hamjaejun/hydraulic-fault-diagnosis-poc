@@ -1,0 +1,33 @@
+section,component,state_code,state_label,count,proportion
+raw_state_distribution,cooler_condition,3,Close to total failure,732,0.33197278911564626
+raw_state_distribution,cooler_condition,20,Reduced efficiency,732,0.33197278911564626
+raw_state_distribution,cooler_condition,100,Full efficiency,741,0.3360544217687075
+raw_state_distribution,valve_condition,73,Close to total failure,360,0.16326530612244897
+raw_state_distribution,valve_condition,80,Severe lag,360,0.16326530612244897
+raw_state_distribution,valve_condition,90,Small lag,360,0.16326530612244897
+raw_state_distribution,valve_condition,100,Optimal,1125,0.5102040816326531
+raw_state_distribution,pump_leakage,0,No leakage,1221,0.5537414965986395
+raw_state_distribution,pump_leakage,1,Weak leakage,492,0.22312925170068026
+raw_state_distribution,pump_leakage,2,Severe leakage,492,0.22312925170068026
+raw_state_distribution,accumulator_pressure,90,Close to total failure,808,0.36643990929705217
+raw_state_distribution,accumulator_pressure,100,Severely reduced,399,0.18095238095238095
+raw_state_distribution,accumulator_pressure,115,Slightly reduced,399,0.18095238095238095
+raw_state_distribution,accumulator_pressure,130,Optimal,599,0.27165532879818594
+raw_state_distribution,stable_flag,0,Conditions stable,1449,0.6571428571428571
+raw_state_distribution,stable_flag,1,Static conditions may not have been reached,756,0.34285714285714286
+binary_component_status,cooler_condition,normal,normal,741,0.3360544217687075
+binary_component_status,cooler_condition,fault_or_degraded,fault_or_degraded,1464,0.6639455782312925
+binary_component_status,valve_condition,normal,normal,1125,0.5102040816326531
+binary_component_status,valve_condition,fault_or_degraded,fault_or_degraded,1080,0.4897959183673469
+binary_component_status,pump_leakage,normal,normal,1221,0.5537414965986395
+binary_component_status,pump_leakage,fault_or_degraded,fault_or_degraded,984,0.44625850340136053
+binary_component_status,accumulator_pressure,normal,normal,599,0.27165532879818594
+binary_component_status,accumulator_pressure,fault_or_degraded,fault_or_degraded,1606,0.728344671201814
+fault_multiplicity_exact,four_components,0,no_component_fault,21,0.009523809523809525
+fault_multiplicity_exact,four_components,1,single_component_fault,566,0.2566893424036281
+fault_multiplicity_exact,four_components,2,2_component_faults,646,0.29297052154195014
+fault_multiplicity_exact,four_components,3,3_component_faults,612,0.27755102040816326
+fault_multiplicity_exact,four_components,4,4_component_faults,360,0.16326530612244897
+fault_multiplicity_grouped,four_components,no_component_fault,no_component_fault,21,0.009523809523809525
+fault_multiplicity_grouped,four_components,single_component_fault,single_component_fault,566,0.2566893424036281
+fault_multiplicity_grouped,four_components,multiple_component_fault,multiple_component_fault,1618,0.7337868480725623

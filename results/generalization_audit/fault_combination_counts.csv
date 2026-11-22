@@ -1,0 +1,145 @@
+condition_id,cooler_condition,cooler_label,valve_condition,valve_label,pump_leakage,pump_label,accumulator_pressure,accumulator_label,faulty_component_count,fault_pattern,cycle_count,proportion,first_cycle_id,last_cycle_id,segment_count,cycle_id_ranges
+46,3,Close to total failure,73,Close to total failure,0,No leakage,90,Close to total failure,3,cooler+valve+accumulator,10,0.0045351473922902496,693,702,1,693-702
+34,3,Close to total failure,73,Close to total failure,0,No leakage,100,Severely reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,560,569,1,560-569
+22,3,Close to total failure,73,Close to total failure,0,No leakage,115,Slightly reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,427,436,1,427-436
+10,3,Close to total failure,73,Close to total failure,0,No leakage,130,Optimal,2,cooler+valve,10,0.0045351473922902496,294,303,1,294-303
+43,3,Close to total failure,73,Close to total failure,1,Weak leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,652,661,1,652-661
+31,3,Close to total failure,73,Close to total failure,1,Weak leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,519,528,1,519-528
+19,3,Close to total failure,73,Close to total failure,1,Weak leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,386,395,1,386-395
+7,3,Close to total failure,73,Close to total failure,1,Weak leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,253,262,1,253-262
+39,3,Close to total failure,73,Close to total failure,2,Severe leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,611,620,1,611-620
+27,3,Close to total failure,73,Close to total failure,2,Severe leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,478,487,1,478-487
+15,3,Close to total failure,73,Close to total failure,2,Severe leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,345,354,1,345-354
+3,3,Close to total failure,73,Close to total failure,2,Severe leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,212,221,1,212-221
+47,3,Close to total failure,80,Severe lag,0,No leakage,90,Close to total failure,3,cooler+valve+accumulator,10,0.0045351473922902496,703,712,1,703-712
+35,3,Close to total failure,80,Severe lag,0,No leakage,100,Severely reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,570,579,1,570-579
+23,3,Close to total failure,80,Severe lag,0,No leakage,115,Slightly reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,437,446,1,437-446
+11,3,Close to total failure,80,Severe lag,0,No leakage,130,Optimal,2,cooler+valve,10,0.0045351473922902496,304,313,1,304-313
+44,3,Close to total failure,80,Severe lag,1,Weak leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,662,671,1,662-671
+32,3,Close to total failure,80,Severe lag,1,Weak leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,529,538,1,529-538
+20,3,Close to total failure,80,Severe lag,1,Weak leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,396,405,1,396-405
+8,3,Close to total failure,80,Severe lag,1,Weak leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,263,272,1,263-272
+40,3,Close to total failure,80,Severe lag,2,Severe leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,621,630,1,621-630
+28,3,Close to total failure,80,Severe lag,2,Severe leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,488,497,1,488-497
+16,3,Close to total failure,80,Severe lag,2,Severe leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,355,364,1,355-364
+4,3,Close to total failure,80,Severe lag,2,Severe leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,222,231,1,222-231
+48,3,Close to total failure,90,Small lag,0,No leakage,90,Close to total failure,3,cooler+valve+accumulator,10,0.0045351473922902496,713,722,1,713-722
+36,3,Close to total failure,90,Small lag,0,No leakage,100,Severely reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,580,589,1,580-589
+24,3,Close to total failure,90,Small lag,0,No leakage,115,Slightly reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,447,456,1,447-456
+12,3,Close to total failure,90,Small lag,0,No leakage,130,Optimal,2,cooler+valve,10,0.0045351473922902496,314,323,1,314-323
+45,3,Close to total failure,90,Small lag,1,Weak leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,672,681,1,672-681
+33,3,Close to total failure,90,Small lag,1,Weak leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,539,548,1,539-548
+21,3,Close to total failure,90,Small lag,1,Weak leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,406,415,1,406-415
+9,3,Close to total failure,90,Small lag,1,Weak leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,273,282,1,273-282
+41,3,Close to total failure,90,Small lag,2,Severe leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,631,640,1,631-640
+29,3,Close to total failure,90,Small lag,2,Severe leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,498,507,1,498-507
+17,3,Close to total failure,90,Small lag,2,Severe leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,365,374,1,365-374
+5,3,Close to total failure,90,Small lag,2,Severe leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,232,241,1,232-241
+37,3,Close to total failure,100,Optimal,0,No leakage,90,Close to total failure,2,cooler+accumulator,21,0.009523809523809525,600,732,3,600-609;692;723-732
+25,3,Close to total failure,100,Optimal,0,No leakage,100,Severely reduced,2,cooler+accumulator,21,0.009523809523809525,467,599,3,467-476;559;590-599
+13,3,Close to total failure,100,Optimal,0,No leakage,115,Slightly reduced,2,cooler+accumulator,21,0.009523809523809525,334,466,3,334-343;426;457-466
+1,3,Close to total failure,100,Optimal,0,No leakage,130,Optimal,1,cooler,221,0.10022675736961452,1,333,3,1-210;293;324-333
+42,3,Close to total failure,100,Optimal,1,Weak leakage,90,Close to total failure,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,651,691,2,651;682-691
+30,3,Close to total failure,100,Optimal,1,Weak leakage,100,Severely reduced,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,518,558,2,518;549-558
+18,3,Close to total failure,100,Optimal,1,Weak leakage,115,Slightly reduced,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,385,425,2,385;416-425
+6,3,Close to total failure,100,Optimal,1,Weak leakage,130,Optimal,2,cooler+pump_leakage,11,0.004988662131519274,252,292,2,252;283-292
+38,3,Close to total failure,100,Optimal,2,Severe leakage,90,Close to total failure,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,610,650,2,610;641-650
+26,3,Close to total failure,100,Optimal,2,Severe leakage,100,Severely reduced,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,477,517,2,477;508-517
+14,3,Close to total failure,100,Optimal,2,Severe leakage,115,Slightly reduced,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,344,384,2,344;375-384
+2,3,Close to total failure,100,Optimal,2,Severe leakage,130,Optimal,2,cooler+pump_leakage,11,0.004988662131519274,211,251,2,211;242-251
+94,20,Reduced efficiency,73,Close to total failure,0,No leakage,90,Close to total failure,3,cooler+valve+accumulator,10,0.0045351473922902496,1425,1434,1,1425-1434
+83,20,Reduced efficiency,73,Close to total failure,0,No leakage,100,Severely reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,1292,1301,1,1292-1301
+71,20,Reduced efficiency,73,Close to total failure,0,No leakage,115,Slightly reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,1159,1168,1,1159-1168
+59,20,Reduced efficiency,73,Close to total failure,0,No leakage,130,Optimal,2,cooler+valve,10,0.0045351473922902496,1026,1035,1,1026-1035
+91,20,Reduced efficiency,73,Close to total failure,1,Weak leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1384,1393,1,1384-1393
+80,20,Reduced efficiency,73,Close to total failure,1,Weak leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1251,1260,1,1251-1260
+68,20,Reduced efficiency,73,Close to total failure,1,Weak leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1118,1127,1,1118-1127
+56,20,Reduced efficiency,73,Close to total failure,1,Weak leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,985,994,1,985-994
+87,20,Reduced efficiency,73,Close to total failure,2,Severe leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1343,1352,1,1343-1352
+76,20,Reduced efficiency,73,Close to total failure,2,Severe leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1210,1219,1,1210-1219
+64,20,Reduced efficiency,73,Close to total failure,2,Severe leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1077,1086,1,1077-1086
+52,20,Reduced efficiency,73,Close to total failure,2,Severe leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,944,953,1,944-953
+95,20,Reduced efficiency,80,Severe lag,0,No leakage,90,Close to total failure,3,cooler+valve+accumulator,10,0.0045351473922902496,1435,1444,1,1435-1444
+84,20,Reduced efficiency,80,Severe lag,0,No leakage,100,Severely reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,1302,1311,1,1302-1311
+72,20,Reduced efficiency,80,Severe lag,0,No leakage,115,Slightly reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,1169,1178,1,1169-1178
+60,20,Reduced efficiency,80,Severe lag,0,No leakage,130,Optimal,2,cooler+valve,10,0.0045351473922902496,1036,1045,1,1036-1045
+92,20,Reduced efficiency,80,Severe lag,1,Weak leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1394,1403,1,1394-1403
+81,20,Reduced efficiency,80,Severe lag,1,Weak leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1261,1270,1,1261-1270
+69,20,Reduced efficiency,80,Severe lag,1,Weak leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1128,1137,1,1128-1137
+57,20,Reduced efficiency,80,Severe lag,1,Weak leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,995,1004,1,995-1004
+88,20,Reduced efficiency,80,Severe lag,2,Severe leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1353,1362,1,1353-1362
+77,20,Reduced efficiency,80,Severe lag,2,Severe leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1220,1229,1,1220-1229
+65,20,Reduced efficiency,80,Severe lag,2,Severe leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1087,1096,1,1087-1096
+53,20,Reduced efficiency,80,Severe lag,2,Severe leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,954,963,1,954-963
+96,20,Reduced efficiency,90,Small lag,0,No leakage,90,Close to total failure,3,cooler+valve+accumulator,10,0.0045351473922902496,1445,1454,1,1445-1454
+85,20,Reduced efficiency,90,Small lag,0,No leakage,100,Severely reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,1312,1321,1,1312-1321
+73,20,Reduced efficiency,90,Small lag,0,No leakage,115,Slightly reduced,3,cooler+valve+accumulator,10,0.0045351473922902496,1179,1188,1,1179-1188
+61,20,Reduced efficiency,90,Small lag,0,No leakage,130,Optimal,2,cooler+valve,10,0.0045351473922902496,1046,1055,1,1046-1055
+93,20,Reduced efficiency,90,Small lag,1,Weak leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1404,1413,1,1404-1413
+82,20,Reduced efficiency,90,Small lag,1,Weak leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1271,1280,1,1271-1280
+70,20,Reduced efficiency,90,Small lag,1,Weak leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1138,1147,1,1138-1147
+58,20,Reduced efficiency,90,Small lag,1,Weak leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,1005,1014,1,1005-1014
+89,20,Reduced efficiency,90,Small lag,2,Severe leakage,90,Close to total failure,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1363,1372,1,1363-1372
+78,20,Reduced efficiency,90,Small lag,2,Severe leakage,100,Severely reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1230,1239,1,1230-1239
+66,20,Reduced efficiency,90,Small lag,2,Severe leakage,115,Slightly reduced,4,cooler+valve+pump_leakage+accumulator,10,0.0045351473922902496,1097,1106,1,1097-1106
+54,20,Reduced efficiency,90,Small lag,2,Severe leakage,130,Optimal,3,cooler+valve+pump_leakage,10,0.0045351473922902496,964,973,1,964-973
+49,20,Reduced efficiency,100,Optimal,0,No leakage,90,Close to total failure,2,cooler+accumulator,221,0.10022675736961452,733,1464,4,733-932;1332-1341;1424;1455-1464
+74,20,Reduced efficiency,100,Optimal,0,No leakage,100,Severely reduced,2,cooler+accumulator,21,0.009523809523809525,1199,1331,3,1199-1208;1291;1322-1331
+62,20,Reduced efficiency,100,Optimal,0,No leakage,115,Slightly reduced,2,cooler+accumulator,21,0.009523809523809525,1066,1198,3,1066-1075;1158;1189-1198
+50,20,Reduced efficiency,100,Optimal,0,No leakage,130,Optimal,1,cooler,21,0.009523809523809525,933,1065,3,933-942;1025;1056-1065
+90,20,Reduced efficiency,100,Optimal,1,Weak leakage,90,Close to total failure,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,1383,1423,2,1383;1414-1423
+79,20,Reduced efficiency,100,Optimal,1,Weak leakage,100,Severely reduced,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,1250,1290,2,1250;1281-1290
+67,20,Reduced efficiency,100,Optimal,1,Weak leakage,115,Slightly reduced,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,1117,1157,2,1117;1148-1157
+55,20,Reduced efficiency,100,Optimal,1,Weak leakage,130,Optimal,2,cooler+pump_leakage,11,0.004988662131519274,984,1024,2,984;1015-1024
+86,20,Reduced efficiency,100,Optimal,2,Severe leakage,90,Close to total failure,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,1342,1382,2,1342;1373-1382
+75,20,Reduced efficiency,100,Optimal,2,Severe leakage,100,Severely reduced,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,1209,1249,2,1209;1240-1249
+63,20,Reduced efficiency,100,Optimal,2,Severe leakage,115,Slightly reduced,3,cooler+pump_leakage+accumulator,11,0.004988662131519274,1076,1116,2,1076;1107-1116
+51,20,Reduced efficiency,100,Optimal,2,Severe leakage,130,Optimal,2,cooler+pump_leakage,11,0.004988662131519274,943,983,2,943;974-983
+142,100,Full efficiency,73,Close to total failure,0,No leakage,90,Close to total failure,2,valve+accumulator,10,0.0045351473922902496,2157,2166,1,2157-2166
+131,100,Full efficiency,73,Close to total failure,0,No leakage,100,Severely reduced,2,valve+accumulator,10,0.0045351473922902496,2024,2033,1,2024-2033
+119,100,Full efficiency,73,Close to total failure,0,No leakage,115,Slightly reduced,2,valve+accumulator,10,0.0045351473922902496,1891,1900,1,1891-1900
+107,100,Full efficiency,73,Close to total failure,0,No leakage,130,Optimal,1,valve,10,0.0045351473922902496,1758,1767,1,1758-1767
+139,100,Full efficiency,73,Close to total failure,1,Weak leakage,90,Close to total failure,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,2116,2125,1,2116-2125
+128,100,Full efficiency,73,Close to total failure,1,Weak leakage,100,Severely reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,1983,1992,1,1983-1992
+116,100,Full efficiency,73,Close to total failure,1,Weak leakage,115,Slightly reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,1850,1859,1,1850-1859
+104,100,Full efficiency,73,Close to total failure,1,Weak leakage,130,Optimal,2,valve+pump_leakage,10,0.0045351473922902496,1717,1726,1,1717-1726
+135,100,Full efficiency,73,Close to total failure,2,Severe leakage,90,Close to total failure,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,2075,2084,1,2075-2084
+124,100,Full efficiency,73,Close to total failure,2,Severe leakage,100,Severely reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,1942,1951,1,1942-1951
+112,100,Full efficiency,73,Close to total failure,2,Severe leakage,115,Slightly reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,1809,1818,1,1809-1818
+100,100,Full efficiency,73,Close to total failure,2,Severe leakage,130,Optimal,2,valve+pump_leakage,10,0.0045351473922902496,1676,1685,1,1676-1685
+143,100,Full efficiency,80,Severe lag,0,No leakage,90,Close to total failure,2,valve+accumulator,10,0.0045351473922902496,2167,2176,1,2167-2176
+132,100,Full efficiency,80,Severe lag,0,No leakage,100,Severely reduced,2,valve+accumulator,10,0.0045351473922902496,2034,2043,1,2034-2043
+120,100,Full efficiency,80,Severe lag,0,No leakage,115,Slightly reduced,2,valve+accumulator,10,0.0045351473922902496,1901,1910,1,1901-1910
+108,100,Full efficiency,80,Severe lag,0,No leakage,130,Optimal,1,valve,10,0.0045351473922902496,1768,1777,1,1768-1777
+140,100,Full efficiency,80,Severe lag,1,Weak leakage,90,Close to total failure,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,2126,2135,1,2126-2135
+129,100,Full efficiency,80,Severe lag,1,Weak leakage,100,Severely reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,1993,2002,1,1993-2002
+117,100,Full efficiency,80,Severe lag,1,Weak leakage,115,Slightly reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,1860,1869,1,1860-1869
+105,100,Full efficiency,80,Severe lag,1,Weak leakage,130,Optimal,2,valve+pump_leakage,10,0.0045351473922902496,1727,1736,1,1727-1736
+136,100,Full efficiency,80,Severe lag,2,Severe leakage,90,Close to total failure,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,2085,2094,1,2085-2094
+125,100,Full efficiency,80,Severe lag,2,Severe leakage,100,Severely reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,1952,1961,1,1952-1961
+113,100,Full efficiency,80,Severe lag,2,Severe leakage,115,Slightly reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,1819,1828,1,1819-1828
+101,100,Full efficiency,80,Severe lag,2,Severe leakage,130,Optimal,2,valve+pump_leakage,10,0.0045351473922902496,1686,1695,1,1686-1695
+144,100,Full efficiency,90,Small lag,0,No leakage,90,Close to total failure,2,valve+accumulator,10,0.0045351473922902496,2177,2186,1,2177-2186
+133,100,Full efficiency,90,Small lag,0,No leakage,100,Severely reduced,2,valve+accumulator,10,0.0045351473922902496,2044,2053,1,2044-2053
+121,100,Full efficiency,90,Small lag,0,No leakage,115,Slightly reduced,2,valve+accumulator,10,0.0045351473922902496,1911,1920,1,1911-1920
+109,100,Full efficiency,90,Small lag,0,No leakage,130,Optimal,1,valve,10,0.0045351473922902496,1778,1787,1,1778-1787
+141,100,Full efficiency,90,Small lag,1,Weak leakage,90,Close to total failure,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,2136,2145,1,2136-2145
+130,100,Full efficiency,90,Small lag,1,Weak leakage,100,Severely reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,2003,2012,1,2003-2012
+118,100,Full efficiency,90,Small lag,1,Weak leakage,115,Slightly reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,1870,1879,1,1870-1879
+106,100,Full efficiency,90,Small lag,1,Weak leakage,130,Optimal,2,valve+pump_leakage,10,0.0045351473922902496,1737,1746,1,1737-1746
+137,100,Full efficiency,90,Small lag,2,Severe leakage,90,Close to total failure,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,2095,2104,1,2095-2104
+126,100,Full efficiency,90,Small lag,2,Severe leakage,100,Severely reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,1962,1971,1,1962-1971
+114,100,Full efficiency,90,Small lag,2,Severe leakage,115,Slightly reduced,3,valve+pump_leakage+accumulator,10,0.0045351473922902496,1829,1838,1,1829-1838
+102,100,Full efficiency,90,Small lag,2,Severe leakage,130,Optimal,2,valve+pump_leakage,10,0.0045351473922902496,1696,1705,1,1696-1705
+97,100,Full efficiency,100,Optimal,0,No leakage,90,Close to total failure,1,accumulator,230,0.10430839002267574,1465,2205,4,1465-1664;2064-2073;2156;2187-2205
+122,100,Full efficiency,100,Optimal,0,No leakage,100,Severely reduced,1,accumulator,21,0.009523809523809525,1931,2063,3,1931-1940;2023;2054-2063
+110,100,Full efficiency,100,Optimal,0,No leakage,115,Slightly reduced,1,accumulator,21,0.009523809523809525,1798,1930,3,1798-1807;1890;1921-1930
+98,100,Full efficiency,100,Optimal,0,No leakage,130,Optimal,0,none,21,0.009523809523809525,1665,1797,3,1665-1674;1757;1788-1797
+138,100,Full efficiency,100,Optimal,1,Weak leakage,90,Close to total failure,2,pump_leakage+accumulator,11,0.004988662131519274,2115,2155,2,2115;2146-2155
+127,100,Full efficiency,100,Optimal,1,Weak leakage,100,Severely reduced,2,pump_leakage+accumulator,11,0.004988662131519274,1982,2022,2,1982;2013-2022
+115,100,Full efficiency,100,Optimal,1,Weak leakage,115,Slightly reduced,2,pump_leakage+accumulator,11,0.004988662131519274,1849,1889,2,1849;1880-1889
+103,100,Full efficiency,100,Optimal,1,Weak leakage,130,Optimal,1,pump_leakage,11,0.004988662131519274,1716,1756,2,1716;1747-1756
+134,100,Full efficiency,100,Optimal,2,Severe leakage,90,Close to total failure,2,pump_leakage+accumulator,11,0.004988662131519274,2074,2114,2,2074;2105-2114
+123,100,Full efficiency,100,Optimal,2,Severe leakage,100,Severely reduced,2,pump_leakage+accumulator,11,0.004988662131519274,1941,1981,2,1941;1972-1981
+111,100,Full efficiency,100,Optimal,2,Severe leakage,115,Slightly reduced,2,pump_leakage+accumulator,11,0.004988662131519274,1808,1848,2,1808;1839-1848
+99,100,Full efficiency,100,Optimal,2,Severe leakage,130,Optimal,1,pump_leakage,11,0.004988662131519274,1675,1715,2,1675;1706-1715

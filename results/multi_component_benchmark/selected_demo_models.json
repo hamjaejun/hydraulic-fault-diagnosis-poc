@@ -1,0 +1,150 @@
+{
+  "pump": {
+    "5": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/pump_logistic_regression_5s.joblib",
+      "validation_macro_f1": 1.0,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "10": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/pump_logistic_regression_10s.joblib",
+      "validation_macro_f1": 0.9968241610904126,
+      "validation_severe_recall": 0.9864864864864865,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "20": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/pump_logistic_regression_20s.joblib",
+      "validation_macro_f1": 1.0,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "40": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/pump_logistic_regression_40s.joblib",
+      "validation_macro_f1": 1.0,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "60": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/pump_logistic_regression_60s.joblib",
+      "validation_macro_f1": 1.0,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    }
+  },
+  "valve": {
+    "5": {
+      "model": "random_forest",
+      "path": "models/multi_component/valve_random_forest_5s.joblib",
+      "validation_macro_f1": 0.6227405843924939,
+      "validation_severe_recall": 0.6538461538461539,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "10": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/valve_logistic_regression_10s.joblib",
+      "validation_macro_f1": 1.0,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "20": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/valve_logistic_regression_20s.joblib",
+      "validation_macro_f1": 0.9951438000942952,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "40": {
+      "model": "random_forest",
+      "path": "models/multi_component/valve_random_forest_40s.joblib",
+      "validation_macro_f1": 0.9837888106627677,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "60": {
+      "model": "random_forest",
+      "path": "models/multi_component/valve_random_forest_60s.joblib",
+      "validation_macro_f1": 0.9887393057122726,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    }
+  },
+  "cooler": {
+    "5": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/cooler_logistic_regression_5s.joblib",
+      "validation_macro_f1": 1.0,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "10": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/cooler_logistic_regression_10s.joblib",
+      "validation_macro_f1": 1.0,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "20": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/cooler_logistic_regression_20s.joblib",
+      "validation_macro_f1": 1.0,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "40": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/cooler_logistic_regression_40s.joblib",
+      "validation_macro_f1": 1.0,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "60": {
+      "model": "logistic_regression",
+      "path": "models/multi_component/cooler_logistic_regression_60s.joblib",
+      "validation_macro_f1": 1.0,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    }
+  },
+  "accumulator": {
+    "5": {
+      "model": "random_forest",
+      "path": "models/multi_component/accumulator_random_forest_5s.joblib",
+      "validation_macro_f1": 0.9766867328271485,
+      "validation_severe_recall": 0.9916666666666667,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "10": {
+      "model": "random_forest",
+      "path": "models/multi_component/accumulator_random_forest_10s.joblib",
+      "validation_macro_f1": 0.9860332922745263,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "20": {
+      "model": "random_forest",
+      "path": "models/multi_component/accumulator_random_forest_20s.joblib",
+      "validation_macro_f1": 0.9963853360140309,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "40": {
+      "model": "random_forest",
+      "path": "models/multi_component/accumulator_random_forest_40s.joblib",
+      "validation_macro_f1": 0.9936079545454546,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    },
+    "60": {
+      "model": "random_forest",
+      "path": "models/multi_component/accumulator_random_forest_60s.joblib",
+      "validation_macro_f1": 0.9891453899683862,
+      "validation_severe_recall": 1.0,
+      "criterion": "validation_macro_f1_then_severe_recall"
+    }
+  }
+}

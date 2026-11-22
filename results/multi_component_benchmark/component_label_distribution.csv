@@ -1,0 +1,15 @@
+component,class_id,class_label,count,proportion,is_severe_class
+pump,0,Normal,1221,0.5537414965986395,False
+pump,1,Weak Leakage,492,0.22312925170068026,False
+pump,2,Severe Leakage,492,0.22312925170068026,True
+valve,73,Close to Failure,360,0.16326530612244897,True
+valve,80,Severe Switching Lag,360,0.16326530612244897,False
+valve,90,Small Switching Lag,360,0.16326530612244897,False
+valve,100,Optimal Switching,1125,0.5102040816326531,False
+cooler,3,Close to Failure,732,0.33197278911564626,True
+cooler,20,Reduced Efficiency,732,0.33197278911564626,False
+cooler,100,Full Efficiency,741,0.3360544217687075,False
+accumulator,90,Close to Failure,808,0.36643990929705217,True
+accumulator,100,Severely Reduced Pressure,399,0.18095238095238095,False
+accumulator,115,Slightly Reduced Pressure,399,0.18095238095238095,False
+accumulator,130,Optimal Pressure,599,0.27165532879818594,False

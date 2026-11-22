@@ -1,0 +1,52 @@
+{
+  "5": {
+    "model": "logistic_regression",
+    "params": {
+      "C": 1.0
+    },
+    "selection_split": "validation",
+    "criterion": "macro_f1_then_severe_recall",
+    "macro_f1": 1.0,
+    "severe_recall": 1.0
+  },
+  "10": {
+    "model": "logistic_regression",
+    "params": {
+      "C": 1.0
+    },
+    "selection_split": "validation",
+    "criterion": "macro_f1_then_severe_recall",
+    "macro_f1": 0.9968241610904126,
+    "severe_recall": 0.9864864864864865
+  },
+  "20": {
+    "model": "logistic_regression",
+    "params": {
+      "C": 0.1
+    },
+    "selection_split": "validation",
+    "criterion": "macro_f1_then_severe_recall",
+    "macro_f1": 1.0,
+    "severe_recall": 1.0
+  },
+  "40": {
+    "model": "logistic_regression",
+    "params": {
+      "C": 1.0
+    },
+    "selection_split": "validation",
+    "criterion": "macro_f1_then_severe_recall",
+    "macro_f1": 1.0,
+    "severe_recall": 1.0
+  },
+  "60": {
+    "model": "logistic_regression",
+    "params": {
+      "C": 10.0
+    },
+    "selection_split": "validation",
+    "criterion": "macro_f1_then_severe_recall",
+    "macro_f1": 1.0,
+    "severe_recall": 1.0
+  }
+}

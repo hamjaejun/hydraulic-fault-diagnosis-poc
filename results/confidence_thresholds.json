@@ -1,0 +1,27 @@
+{
+  "5": {
+    "threshold": 0.34,
+    "rule": "max coverage subject to validation accuracy >= 0.90 and coverage >= 0.50",
+    "selected_on": "validation"
+  },
+  "10": {
+    "threshold": 0.34,
+    "rule": "max coverage subject to validation accuracy >= 0.90 and coverage >= 0.50",
+    "selected_on": "validation"
+  },
+  "20": {
+    "threshold": 0.34,
+    "rule": "max coverage subject to validation accuracy >= 0.90 and coverage >= 0.50",
+    "selected_on": "validation"
+  },
+  "40": {
+    "threshold": 0.34,
+    "rule": "max coverage subject to validation accuracy >= 0.90 and coverage >= 0.50",
+    "selected_on": "validation"
+  },
+  "60": {
+    "threshold": 0.34,
+    "rule": "max coverage subject to validation accuracy >= 0.90 and coverage >= 0.50",
+    "selected_on": "validation"
+  }
+}
