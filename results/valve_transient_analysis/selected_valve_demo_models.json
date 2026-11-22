@@ -1,0 +1,91 @@
+{
+  "2": {
+    "path": "models/valve_transient/valve_combined_2s.joblib",
+    "model": "random_forest",
+    "params": {
+      "n_estimators": 250,
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt"
+    },
+    "validation_macro_f1": 0.534710506662474
+  },
+  "5": {
+    "path": "models/valve_transient/valve_combined_5s.joblib",
+    "model": "random_forest",
+    "params": {
+      "n_estimators": 250,
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt"
+    },
+    "validation_macro_f1": 0.5628450707804915
+  },
+  "8": {
+    "path": "models/valve_transient/valve_combined_8s.joblib",
+    "model": "random_forest",
+    "params": {
+      "n_estimators": 250,
+      "max_depth": 16,
+      "min_samples_leaf": 2,
+      "max_features": "sqrt"
+    },
+    "validation_macro_f1": 0.573839834405141
+  },
+  "10": {
+    "path": "models/valve_transient/valve_combined_10s.joblib",
+    "model": "logistic_regression",
+    "params": {
+      "C": 0.1
+    },
+    "validation_macro_f1": 1.0
+  },
+  "12": {
+    "path": "models/valve_transient/valve_combined_12s.joblib",
+    "model": "logistic_regression",
+    "params": {
+      "C": 0.1
+    },
+    "validation_macro_f1": 1.0
+  },
+  "15": {
+    "path": "models/valve_transient/valve_combined_15s.joblib",
+    "model": "logistic_regression",
+    "params": {
+      "C": 0.1
+    },
+    "validation_macro_f1": 1.0
+  },
+  "20": {
+    "path": "models/valve_transient/valve_combined_20s.joblib",
+    "model": "logistic_regression",
+    "params": {
+      "C": 0.1
+    },
+    "validation_macro_f1": 1.0
+  },
+  "30": {
+    "path": "models/valve_transient/valve_combined_30s.joblib",
+    "model": "logistic_regression",
+    "params": {
+      "C": 0.1
+    },
+    "validation_macro_f1": 1.0
+  },
+  "40": {
+    "path": "models/valve_transient/valve_combined_40s.joblib",
+    "model": "logistic_regression",
+    "params": {
+      "C": 0.1
+    },
+    "validation_macro_f1": 1.0
+  },
+  "60": {
+    "path": "models/valve_transient/valve_combined_60s.joblib",
+    "model": "logistic_regression",
+    "params": {
+      "C": 0.1
+    },
+    "validation_macro_f1": 1.0
+  }
+}

@@ -21,6 +21,13 @@ from multi_component import (
 )
 from train import get_xy
 from uncertainty import decision_status
+from valve_transient import (
+    TRANSIENT_SENSORS,
+    VALVE_MODEL_DIR,
+    VALVE_RESULT_DIR,
+    VALVE_TIMES,
+    predict_cycle as predict_valve_transient,
+)
 
 st.set_page_config(page_title="Hydraulic Fault Diagnosis", page_icon="⚙️", layout="wide")
 st.markdown(
@@ -129,7 +136,7 @@ with st.sidebar:
     sensors_to_plot = st.multiselect("Signals", list(SENSORS), default=["PS1", "FS1", "EPS1"], max_selections=5)
     reveal = st.checkbox("Reveal ground truth", value=False)
 
-tabs = st.tabs(["Live diagnosis", "Prediction timeline", "Model performance", "Sensor optimization", "Multi-fault analysis", "Dataset & methodology"])
+tabs = st.tabs(["Live diagnosis", "Prediction timeline", "Model performance", "Sensor optimization", "Multi-fault analysis", "Valve transient analysis", "Dataset & methodology"])
 
 with tabs[0]:
     if multi_models_ready(observation):
@@ -280,6 +287,62 @@ with tabs[4]:
         st.warning("Multi-fault analysis artifacts are missing. Run `python multi_component_benchmark.py`.")
 
 with tabs[5]:
+    st.subheader("Valve transient analysis")
+    st.caption("The highlighted interval is an observed pressure/flow/power response region, not a measured valve command or spool position.")
+    v1, v2, v3 = st.columns(3)
+    valve_sensor = v1.selectbox("Transient sensor", list(TRANSIENT_SENSORS), index=1, key="valve_transient_sensor")
+    valve_time = v2.select_slider("Valve observation time", options=list(VALVE_TIMES), value=12, key="valve_transient_time")
+    show_full_cycle = v3.checkbox("Show full 60 s signal", value=False, key="valve_full_signal")
+    signal_limit = 60 if show_full_cycle else valve_time
+    valve_signal = load_signal(valve_sensor, cycle_id)
+    valve_signal = valve_signal[valve_signal["time_seconds"] < signal_limit]
+    signal_figure = px.line(valve_signal, x="time_seconds", y="value", title=f"Cycle {cycle_id}: {valve_sensor} measured signal")
+    if signal_limit > 9.3:
+        signal_figure.add_vrect(x0=9.3, x1=min(10.2, signal_limit), fillcolor="#64748b", opacity=0.18, line_width=0, annotation_text="observed response band")
+    if show_full_cycle:
+        signal_figure.add_vrect(x0=0, x1=valve_time, fillcolor="#2563eb", opacity=0.08, line_width=0, annotation_text="model input")
+    st.plotly_chart(signal_figure, width="stretch")
+
+    valve_selection = VALVE_RESULT_DIR / "selected_valve_demo_models.json"
+    if valve_selection.exists() and (VALVE_MODEL_DIR / f"valve_combined_{valve_time}s.joblib").exists():
+        valve_prediction = predict_valve_transient(valve_time, cycle_id)
+        cols = st.columns(4)
+        cols[0].metric("Prediction", valve_prediction["predicted_label"])
+        cols[1].metric("Model probability", f"{valve_prediction['confidence']:.1%}")
+        cols[2].metric("Ground truth", valve_prediction["actual_label"])
+        cols[3].metric("Match", "Yes" if valve_prediction["predicted_code"] == valve_prediction["actual_code"] else "No")
+        valve_probability = pd.DataFrame({"Valve condition": valve_prediction["probabilities"].keys(), "Probability": valve_prediction["probabilities"].values()})
+        st.plotly_chart(px.bar(valve_probability, x="Valve condition", y="Probability", color="Valve condition", range_y=[0, 1], title=f"Transient-aware Valve prediction using 0–{valve_time} s only"), width="stretch")
+    else:
+        st.warning("Valve transient demo models are missing. Run `python valve_transient.py build-features` and `python valve_transient.py train-demo`.")
+
+    time_summary_path = VALVE_RESULT_DIR / "valve_time_window_summary.csv"
+    ablation_path = VALVE_RESULT_DIR / "valve_feature_ablation.csv"
+    cooler_path = VALVE_RESULT_DIR / "valve_cooler_holdout_results.csv"
+    if time_summary_path.exists() and ablation_path.exists() and cooler_path.exists():
+        st.subheader("Observation-time benchmark")
+        valve_time_summary = load_csv(str(time_summary_path))
+        st.plotly_chart(px.line(valve_time_summary, x="observation_seconds", y="macro_f1_mean", error_y="macro_f1_std", color="model", markers=True, range_y=[0, 1.03], title="Random Cycle nested-CV Macro-F1 (statistical baseline)"), width="stretch")
+
+        st.subheader("Feature ablation and generalization")
+        valve_ablation = load_csv(str(ablation_path))
+        a1, a2 = st.columns(2)
+        ablation_time = a1.selectbox("Benchmark time", [5, 12, 60], index=1, format_func=lambda value: f"{value} s", key="valve_ablation_time")
+        ablation_model = a2.selectbox("Benchmark model", ["logistic_regression", "random_forest"], index=1, format_func=lambda value: value.replace("_", " ").title(), key="valve_ablation_model")
+        selected_ablation = valve_ablation[(valve_ablation["observation_seconds"] == ablation_time) & (valve_ablation["model"] == ablation_model)].copy()
+        selected_ablation["Feature set"] = selected_ablation["feature_set"].str.replace("_", " ").str.title()
+        selected_ablation["Scheme"] = selected_ablation["scheme"].str.replace("_", " ").str.title()
+        st.plotly_chart(px.bar(selected_ablation, x="Feature set", y="macro_f1_mean", error_y="macro_f1_std", color="Scheme", barmode="group", range_y=[0, 1.03], title="Statistical vs transient-aware features"), width="stretch")
+
+        st.subheader("Leave-one-cooler-condition-out")
+        valve_cooler = load_csv(str(cooler_path))
+        cooler_display = valve_cooler[(valve_cooler["observation_seconds"] == ablation_time) & (valve_cooler["model"] == ablation_model)].copy()
+        st.plotly_chart(px.bar(cooler_display, x="feature_set", y="macro_f1", color="held_out_cooler", barmode="group", range_y=[0, 1.03], title="Valve performance when an entire cooler condition is unseen"), width="stretch")
+        st.caption("Nested OOF and cooler-domain results use the same public rig data and have been inspected during development; they are not a pristine external test.")
+    else:
+        st.warning("Valve benchmark artifacts are incomplete. Run `python valve_transient_benchmark.py --stage all`.")
+
+with tabs[6]:
     counts = split.groupby("split").size()
     cols = st.columns(5)
     cols[0].metric("Cycles", manifest["profile_shape"][0])
@@ -299,4 +362,3 @@ with tabs[5]:
 
     **Group limitations.** Contiguous identical five-label runs are inferred blocks, not known acquisition sessions. Condition holdout tests unseen four-component state combinations within this apparatus; it does not demonstrate transfer to a new machine.
     """)
-
