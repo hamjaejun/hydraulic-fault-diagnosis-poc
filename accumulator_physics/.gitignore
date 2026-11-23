@@ -1,0 +1,5 @@
+# generated intermediates and downloaded data (rebuild with load.py / feat.py / phys.py / p0_inverse.py)
+work/
+*.npz
+*.npy
+*.zip
